@@ -1,0 +1,12 @@
+.first-block{width: 100%;height:1070px;background: url('../../images/first-block-layout.jpg');
+	.mbox{padding:55px 0 0 0;display: flex;-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;
+		.top-part{display: flex;-webkit-justify-content: space-between;justify-content: space-around;
+			.telephone{
+				font-size: 31px;color: #00b51a;
+			}
+		}
+		.heading{
+			font-size: 48px;color: #008fb3;width:100%;
+		}
+	}
+}
