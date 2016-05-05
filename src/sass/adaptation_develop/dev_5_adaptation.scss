@@ -18,13 +18,13 @@
         }
     }
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
     /*second*/
     .second-block{padding: 50px 35px 50px 50px;
 
         .left{width: 37%;border-left:6px solid #accfdc;border-top:6px solid #accfdc;}
         .right{ width: 63%; border:6px solid #accfdc; border-left:none; height: 670px;}
-        .content{ background-image: none;}
+        .content{ background-image: none;height: auto;}
         .tabs{border-bottom:6px solid #accfdc; height: 166px;
             &:after{ width: 6px;  height: calc(100% + 12px);top: -6px; right:0; }
             &:before{ background-size:cover; width: 50%; background-position: left top;height: 70%;}
