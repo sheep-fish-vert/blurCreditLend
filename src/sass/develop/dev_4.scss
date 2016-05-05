@@ -7,5 +7,5 @@
 
 /* third block */
 .third-block{background: url(/images/third-block.jpg) center center no-repeat;background-size: cover;padding: 70px;position: relative;
-
+    .content{height: 100%;width: 100%;background: transparent url(/images/third-block-blur.jpg) center center no-repeat;background-size: cover;}
 }
