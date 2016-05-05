@@ -1,0 +1,8 @@
+.seventh-block{background-image: url(/images/b7-bg.jpg); padding: 70px;
+    .fp-scrollable{overflow: hidden;}
+    .seventh-wrah{width: calc(100vw - 140px); height: calc(100vh - 140px); background-image: url(/images/b7-inside.jpg); background-size: cover; background-position: center center; 
+        .conteiner{ position: relative; 
+            .title-text{position: absolute; top: -20px; font-family: 'Ubuntu', sans-serif; font-weight: 700; font-size: 33px; }         
+        }
+    }
+}
