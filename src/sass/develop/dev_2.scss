@@ -2,9 +2,9 @@
     .fp-scrollable{overflow: visible !important;}
     .slimScrollDiv{ overflow: visible !important; }
     .seventh-wrah{width: calc(100vw - 140px); height: calc(100vh - 140px); background-image: url(/images/b7-inside.jpg); background-size: cover; background-position: center center; 
-        .conteiner{ position: relative;  padding: calc(( 100vh - 140px - 545px )/2) 0;
+        .conteiner{ position: relative;  padding: calc(( 100vh - 140px - 587px )/2) 0;
         
-            .title-text{position: absolute; top: -20px; font-family: 'Ubuntu', sans-serif; font-weight: 700; font-size: 33px; color: white; left: 15px;}         
+            .title-text{position: absolute; top: -20px; font-family: 'Ubuntu', sans-serif; font-weight: 700; font-size: 33px; color: white; left: 15px; letter-spacing: 5px;}         
         }
         .slider-w{width: 100%; text-align: center; overflow: hidden; position: relative;
             .item{width: 100%;}
@@ -23,5 +23,23 @@
                 
             }
         }
+        .button-row{max-width: 400px; width: 100%; margin: 0 auto;
+            .button{border-color: white; color: white; position: relative;
+                .button-signature{color: white; max-width: calc(100% - 56px);width: 100%; padding: 0; line-height: 56px; text-align: center;}
+                .arrow{border-color: white; position: absolute; right: 0px; top: 0px; bottom: 0; }
+            }
+        }
+    }
+    .slick-arrow{ width: 57px; height: 57px; border: 3px solid white; z-index: 2222; transition: all 0.3s;
+        &:before{content: ''; position: absolute; background-image: url(/images/slid.png); top: 0; left: 0;  width: 51px; height: 51px; background-position: center; background-repeat: no-repeat;}     
+        &:hover{background-color: #00cb74;}   
+    }
+    .slick-arrow.slick-disabled {
+        &:hover{background-color: transparent;}  
+    }
+    
+    .slick-prev{ left: 15%;}
+    .slick-next{right: 15%;
+        &:before{transform: rotate(180deg);}
     }
 }
