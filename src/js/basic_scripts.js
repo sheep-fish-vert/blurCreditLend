@@ -149,11 +149,15 @@ function headeButer(menuMobile,toggleMenu){
 function fullPage(){
     $('#fullpage').fullpage({
         navigation: true,
+        showActiveTooltip: true,
         navigationPosition: 'left',
         resize : false,
         loopTop: false,
         scrollBar: false,
         sectionSelector: '#fullpage>section',
+        controlArrows: true,
+        verticalCentered: false,
+        scrollOverflow: true,
         //events
         onLeave: function(index, nextIndex, direction){},
         afterLoad: function(anchorLink, index){},
