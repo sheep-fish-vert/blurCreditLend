@@ -146,8 +146,28 @@ function headeButer(menuMobile,toggleMenu){
     }
 }
 
+function fullPage(){
+    $('#fullpage').fullpage({
+        navigation: true,
+        navigationPosition: 'left',
+        resize : false,
+        loopTop: false,
+        scrollBar: false,
+        sectionSelector: '#fullpage>section',
+        //events
+        onLeave: function(index, nextIndex, direction){},
+        afterLoad: function(anchorLink, index){},
+        afterRender: function(){},
+        afterResize: function(){},
+        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
+        onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
+    });
+}
+
+
 /* DOCUMENT READY  */
 $(document).ready(function() {
+    fullPage();
     //oneHeightItems();
     $('.footer_placeholder').height($('.footer').outerHeight());
 
