@@ -1,1 +1,3 @@
-.second-block{ background-image: url(/images/secondBG.jpg); background-size: cover;}
+.second-block{ background-image: url(/images/secondBG.jpg); background-size: cover; padding: 70px; position: relative;
+    .content{height: 100%; width: 100%; background-color: rgba(63,124,145,0.83);}
+}
