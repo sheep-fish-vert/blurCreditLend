@@ -2,11 +2,45 @@
     .second-block{ background-image: url(/images/secondBG.jpg); background-size: cover; padding: 70px; position: relative;
         .fp-scrollable{height: 100%; width: 100%; overflow: hidden;}
         .content{height: 100%; width: 100%; background-color: rgba(63,124,145,0.83);box-shadow: 0px 0px 58px 2px rgba(0,0,0,0.75); position: relative;}
-        .left{width: 27%;}
-        .right{ width: 73%;}
+        .left{width: 27%;border-left:8px solid #accfdc;border-top:8px solid #accfdc;}
+        .right{ width: 73%; border:8px solid #accfdc; border-left:none;}
         .colums{height: 100%; float: left; position: relative;}
-        .tabs{height: 25%;
+        .tabs{height: 25%;border-bottom:8px solid #accfdc; border-right:8px solid #accfdc; position: relative; overflow: hidden;  width: 100%;
+            &:before{ content: ''; display: block; position: absolute;width: 248px; height: 211px;top: 50%; }
+            &.one{
+                &:before{ background-image: url(/images/i01.png); width: 219px; height: 208px;}
+            }
+            &.two{
+                &:before{ background-image: url(/images/i02.png);right:0;}
+            }
+            &.three{
+                &:before{ background-image: url(/images/i03.png);}
+            }
+            &.four{
+                &:before{ background-image: url(/images/i04.png); right:0; width: 251px; height: 209px;}
+            }
+            p{ display: block; text-transform: uppercase; color:#fff; height: 100%; width: 100%; vertical-align: middle; text-align: center;background-color: rgba(0,140,110,0.6); transition: all 300ms; position: relative;
 
+            }
+            &:hover{
+                p{background-color: rgba(49,216,163,0.38);}
+            }
+            &.active{ border-right: none;
+                p{ background-color: transparent;}
+            }
+            span{ display: inline-block; text-align: left;max-width: 210px; position: absolute; top:50%; transform:translate(-50%, -50%); left:50%;}
+        }
+        .button-more{ position: absolute; bottom: 0; right: 0;
+            p{height: 58px; display: inline-block;border:3px solid #fff;  border-right:none; vertical-align: top; margin-right: -4px; color:#fff; text-transform: uppercase;
+                &:last-child{border:3px solid #fff; width: 58px; background-color: #6fca79; position: relative;
+                    img{ position: absolute; left:50%; top:50%; transform:translate(-50%, -50%);}
+                }
+            }
+            a{
+                &:hover{
+                    p:last-child{ background-color: #569f80;}
+                }
+            }
         }
     }
 /*END second*/
