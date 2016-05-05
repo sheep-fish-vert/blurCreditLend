@@ -147,27 +147,25 @@ function headeButer(menuMobile,toggleMenu){
 }
 
 function fullPage(){
-    $('#fullpage').fullpage({
-        navigation: true,
-        showActiveTooltip: true,
-        navigationPosition: 'left',
-        resize : true,
-        loopTop: false,
-        scrollBar: false,
-        sectionSelector: '#fullpage>section',
-        controlArrows: true,
-        verticalCentered: false,
-        scrollOverflow: true,
-        responsiveWidth: 0,
-        responsiveHeight: 0,
-        //events
-        onLeave: function(index, nextIndex, direction){},
-        afterLoad: function(anchorLink, index){},
-        afterRender: function(){},
-        afterResize: function(){},
-        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
-        onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
-    });
+    if ( $(window).width() >= 1024 ){
+        $('#fullpage').fullpage({
+            navigation: true,
+            showActiveTooltip: true,
+            navigationPosition: 'left',
+            resize : true,
+            loopTop: false,
+            scrollBar: false,
+            sectionSelector: '#fullpage>section',
+            controlArrows: true,
+            verticalCentered: false,
+            scrollOverflow: true,
+            responsiveWidth: 0,
+            responsiveHeight: 0,
+            afterLoad: function(anchorLink, index){},
+            afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
+            onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
+        });
+    }
 }
 
 
@@ -182,6 +180,13 @@ $(document).ready(function() {
 });
 
 $(window).resize(function() {
-
+    if( $(window).width() >= 1024 && !$('.main').hasClass('fullpage-wrapper') ){
+        fullPage();
+    }
+    if( $(window).width() < 1024 && $('.main').hasClass('fullpage-wrapper') ){
+        console.log('<1024');
+        $.fn.fullpage.destroy('all');
+        $('.main').removeClass('fullpage-wrapper');
+    }
     $('.footer_placeholder').height($('.footer').outerHeight());
 });

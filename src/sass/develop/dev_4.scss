@@ -4,3 +4,8 @@
 #fp-nav ul li:hover a span, .fp-slidesNav ul li:hover a span{height: 7px;width: 7px;margin: -3px 0 0 -4px;background: linear-gradient(135deg, #616161 0%,#898989 70%,#ffffff 100%);}
 #fp-nav ul li a.active span, .fp-slidesNav ul li a.active span{border-radius: 0;height: 13px;width: 13px;left: 0;top: 0;background:#7ddb88;margin:0;}
 #fp-nav ul li a.active span:after, .fp-slidesNav ul li a.active span:after{width: 21px;height: 21px;border:2px solid #67ab6f;content: '';position: absolute;left:-4px;top: -4px;transition: all 0.1s ease-in-out;}
+
+/* third block */
+.third-block{background: url(/images/third-block.jpg) center center no-repeat;background-size: cover;padding: 70px;position: relative;
+
+}
