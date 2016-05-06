@@ -172,7 +172,7 @@ function fullPage(){
 /* DOCUMENT READY  */
 $(document).ready(function() {
     fullPage();
-    //oneHeightItems();
+    oneHeightItems();
     $('.footer_placeholder').height($('.footer').outerHeight());
 
     //goTo();
@@ -187,5 +187,6 @@ $(window).resize(function() {
         $.fn.fullpage.destroy('all');
         $('.main').removeClass('fullpage-wrapper');
     }
+    oneHeightItems();
     $('.footer_placeholder').height($('.footer').outerHeight());
 });
