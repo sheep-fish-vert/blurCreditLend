@@ -31,7 +31,7 @@
 
         .foruth-block{padding:30px 0;
             .mbox{
-                .fourth-block-wrap{background-image:url(/images/fourth-block-fone.png);background-repeat:repeat;background-size: auto;background-position: left top;width: calc(100% - 60px);height:calc(100% - 60px);}
+                .fourth-block-wrap{background-image:url(/images/fourth-block-fone.png);background-repeat:repeat;background-size: auto;background-position: left top;width: calc(100% - 60px);height: 600px;}
             }
         }
 
@@ -53,7 +53,7 @@
 
         .foruth-block{
             .mbox{
-                .fourth-block-wrap{width: calc(100% - 30px);height: calc(100% - 30px);
+                .fourth-block-wrap{width: calc(100% - 30px);height: 400px;
                     .title{font-size: 16px;top:-8px;}
                 }
             }
@@ -68,7 +68,7 @@
 
         .foruth-block{padding: 15px 0;
             .mbox{
-                .fourth-block-wrap{
+                .fourth-block-wrap{height: 350px;
                     .title{font-size: 12px;top:-5px;}
                     .video-wrap{
                         .video-placeholder{
