@@ -3,10 +3,10 @@
     .foruth-block{background-image:url(/images/fourth-block-layout.jpg);background-position: center center;background-repeat: no-repeat;background-size: cover;
         .mbox{height: 100%;display: flex;align-items:center;justify-content:center;
             .fourth-block-wrap{width: calc(100% - 140px);height: calc(100% - 140px);padding: 45px 0px;background-image:url(/images/fourth-block-inside.jpg);background-repeat:no-repeat;background-size: cover;position: relative;display: flex;display: flex;align-items:center;justify-content:center;
-                .title{position: absolute;font-size: 33px;font-weight: 700;top:-16px;left:5px;text-transform: uppercase;color:#fff;letter-spacing: 1.25px;}
-                .video-wrap{position: relative;width: 100%;max-width: 1520px;margin:0 auto;
-                    .video{position:relative;height: 0;padding-bottom: 47.65%;padding-top:25px;z-index: 0;
-                        iframe{position: absolute;top:0;left:0;width: 100%!important;height: 100%!important;}
+                .title{position: absolute;font-size: 33px;font-weight: 700;top:-16px;left:5px;text-transform: uppercase;color:#fff;letter-spacing: 1.25px;z-index: 1;}
+                .video-wrap{position: relative;width: 100%;max-width: 1520px;height: 100%;margin:0 auto;z-index: 0;
+                    .video{z-index: 0;/*position:relative;height: 0;padding-bottom: 47.65%;padding-top:25px;*/position:absolute;width: 100%;height: 100%;
+                        iframe{/*position: absolute;top:0;left:0;width: 100%!important;height: 100%!important;*/position:absolute;width: 100%;height: 100%;}
                     }
                     .video-placeholder{position: absolute;top:0;left:0;right:0;bottom:0;z-index: 1;
                         background: rgb(206,232,239);background: -moz-linear-gradient(-45deg, rgba(206,232,239,.5) 0%, rgba(107,188,200,.5) 100%);background: -webkit-linear-gradient(-45deg, rgba(206,232,239,.5) 0%,rgba(107,188,200,.5) 100%);background: linear-gradient(135deg, rgba(206,232,239,.5) 0%,rgba(107,188,200,.5) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cee8ef', endColorstr='#6bbcc8',GradientType=1 );
