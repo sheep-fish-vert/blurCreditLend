@@ -5,7 +5,7 @@
     .sixth-block .conteiner .top-row .item-b .after-text{
         .shit { font-size: 14px;letter-spacing: 5px;}
         p { font-size: 12px; line-height: 1;}
-    } 
+    }
 
 }
 @media screen and (max-width: 1366px){
@@ -14,16 +14,16 @@
 
 
 @media screen and (max-width: 1280px){
-    /* 7 8 */  
-        .seventh-block{ padding: 0px ;     
+    /* 7 8 */
+        .seventh-block{ padding: 0px ;
             .seventh-wrah{width: 100%; height: auto; padding: 50px;
                 .conteiner{width: 100%;}
-            } 
+            }
             .slick-prev{ left: 20px;}
-            .slick-next{right: 20px;}            
+            .slick-next{right: 20px;}
         }
         .sixth-block .conteiner {padding: 50px;}
-        .sixth-block .content {        
+        .sixth-block .content {
             .top-row .text p { max-width: 100%; font-size: 12px;}
             .bot-row .ite-bot .contein {
                 .top .head-text {font-size: 12px;}
@@ -32,7 +32,7 @@
         }
     /* 7 8 */
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
     .seventh-block{padding: 30px;
         .seventh-wrah{height: auto; width: 100%; padding: 0;
             .conteiner{padding:70px 0 0; width: 100%;
@@ -51,27 +51,33 @@
             }
         }
     }
-    
+
     .seventh-block{
         .slick-prev{ left: 0px; top: 30%;}
         .slick-next{right: 0px; top: 30%;}
     }
-    
-    
-    .sixth-block .conteiner {padding: 30px;}     
-    .sixth-block .content .top-row .item-b { float: none; width: 100%; padding-bottom: 90px;
-        .kvadr{display: inline-block; width: 40%;}
-        .after-text{display: inline-block; width: 50%; vertical-align: top;  padding-left: 20px;
-            .shit{font-size: 24px; letter-spacing: 8px;}
-            p{font-size: 18px; }
+
+
+    .sixth-block .conteiner {padding: 30px;}
+    .sixth-block {
+        .content {background-image:url(/images/sixth-block-mobile-bg.jpg);
+            .top-row {
+                .item-b { float: none; width: 100%; padding-bottom: 90px;
+                    .kvadr{display: inline-block; width: 40%;}
+                    .after-text{display: inline-block; width: 50%; vertical-align: top;  padding-left: 20px;
+                        .shit{font-size: 24px; letter-spacing: 8px;}
+                        p{font-size: 18px; }
+                    }
+                    &:before{ width: calc(40% - 20px); bottom: 5px; top: calc(100% - 85px); left: 10px; }
+                }
+            }
         }
-        &:before{ width: calc(40% - 20px); bottom: 5px; top: calc(100% - 85px); left: 10px; }
-    }    
-    .sixth-block .content .bot-row .ite-bot { float: none; width: 100%; padding: 0 40px;}    
+    }
+    .sixth-block .content .bot-row .ite-bot { float: none; width: 100%; padding: 0 40px;}
     .sixth-block .content .top-row .text p { font-size: 18px; padding-bottom: 40px;}
     .sixth-block .content .bot-row .ite-bot .contein .top .head-text {font-size: 18px;}
     .sixth-block .content .bot-row .ite-bot .contein .bot .texter {font-size: 18px;}
-    
+
     .title-text {font-size: 24px; top: -12px;}
 }
 @media screen and (max-width: 992px){
@@ -91,21 +97,21 @@
                 .convert-text .texter { padding: 35px 15px; font-size: 9px;
                     &:before{width: 46px; height: 41px; background-size: cover; top: -10px;}
                     &:after{width: 46px; height: 41px; background-size: cover; bottom: -10px;}
-                }   
+                }
             }
-            .button-row{padding: 10px 15px; 
+            .button-row{padding: 10px 15px;
                  .button .button-signature{font-size: 9px;}
-            } 
-        }         
+            }
+        }
     }
 
     .seventh-block{
         .slick-prev{  top: 70px;}
         .slick-next{  top: 70px;}
     }
-    .sixth-block .conteiner {padding: 15px;}  
+    .sixth-block .conteiner {padding: 15px;}
     .title-text {font-size: 12px; top: -6px; letter-spacing: 2px;}
-    
+
     .sixth-block .content .top-row .text h5 {font-size: 9px; padding: 30px 0 10px;}
     .sixth-block .content .top-row .text p { font-size: 9px; padding-bottom: 10px;}
     .sixth-block .content .top-row .item-b:last-child {margin-right: 0; padding-bottom: 0;}
