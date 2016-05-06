@@ -11,17 +11,22 @@
 @media screen and (max-width: 1366px){
 
 }
-@media screen and (max-height: 890px){
-    .sixth-block .conteiner{ background-image: none;
-        .top-row { height: auto; min-height: 450px; overflow: hidden;}
-    } 
-    .sixth-block .conteiner .bot-row .ite-bot .contein{ height: auto; min-height: 375px;}
-}
+
 
 @media screen and (max-width: 1280px){
-    .seventh-block{
+    
+    .seventh-block{ padding: 50px;     
+        .seventh-wrah{width: calc(100vw - 100px); height: calc(100vh - 100px);}
         .slick-prev{ left: 20px;}
         .slick-next{right: 20px;}
+    }
+    .sixth-block .conteiner {padding: 50px;}
+    .sixth-block .content {        
+        .top-row .text p { max-width: 100%; font-size: 12px;}
+        .bot-row .ite-bot .contein {
+            .top .head-text {font-size: 12px;}
+            .bot .texter { font-size: 12px;}
+        }
     }
 }
 @media screen and (max-width: 1024px){
@@ -48,6 +53,23 @@
         .slick-prev{ left: 0px; top: 30%;}
         .slick-next{right: 0px; top: 30%;}
     }
+    
+    
+    .sixth-block .conteiner {padding: 30px;}     
+    .sixth-block .content .top-row .item-b { float: none; width: 100%; padding-bottom: 90px;
+        .kvadr{display: inline-block; width: 40%;}
+        .after-text{display: inline-block; width: 50%; vertical-align: top;  padding-left: 20px;
+            .shit{font-size: 24px; letter-spacing: 8px;}
+            p{font-size: 18px; }
+        }
+        &:before{ width: calc(40% - 20px); bottom: 5px; top: calc(100% - 85px); left: 10px; }
+    }    
+    .sixth-block .content .bot-row .ite-bot { float: none; width: 100%; padding: 0 40px;}    
+    .sixth-block .content .top-row .text p { font-size: 18px; padding-bottom: 40px;}
+    .sixth-block .content .bot-row .ite-bot .contein .top .head-text {font-size: 18px;}
+    .sixth-block .content .bot-row .ite-bot .contein .bot .texter {font-size: 18px;}
+    
+    .title-text {font-size: 24px; top: -12px;}
 }
 @media screen and (max-width: 992px){
 
@@ -78,6 +100,14 @@
         .slick-prev{  top: 70px;}
         .slick-next{  top: 70px;}
     }
+    .sixth-block .conteiner {padding: 15px;}  
+    .title-text {font-size: 12px; top: -6px; letter-spacing: 2px;}
+    
+    .sixth-block .content .top-row .text h5 {font-size: 9px; padding: 30px 0 10px;}
+    .sixth-block .content .top-row .text p { font-size: 9px; padding-bottom: 10px;}
+    .sixth-block .content .top-row .item-b:last-child {margin-right: 0; padding-bottom: 0;}
+    .sixth-block .content .bot-row .ite-bot .contein .top .head-text {font-size: 12px; padding-bottom: 15px;}
+    .sixth-block .content .bot-row .ite-bot .contein .bot .texter { font-size: 12px;}
 }
 @media screen and (max-width: 479px){
 
