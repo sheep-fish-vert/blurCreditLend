@@ -54,7 +54,7 @@
 .sixth-block{background-image: url(/images/bg-6.jpg); background-size: cover;
     //.fp-scrollable{overflow: visible !important;}
     .slimScrollDiv{ overflow: visible !important; }
-    .conteiner{ padding: 70px 70px 0 70px; overflow: hidden; }
+    .conteiner{ padding: 0 70px; overflow: hidden; display: flex;align-items:center;height: 100%;}
     .content{position: relative; background-image: url(/images/bg-6i.jpg); background-size: 105% 105%; background-position: center; width: 100%;
         .top-row{ padding: 0 5%; overflow: hidden; margin-bottom: 25px;
             .text{ font-family: 'Ubuntu', sans-serif;
