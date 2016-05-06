@@ -12,6 +12,31 @@
 }
 @media screen and (max-width: 1024px){
 
+    /* fourth-block */
+
+        .foruth-block{
+            .mbox{
+                .fourth-block-wrap{
+                    .title{font-size: 24px;top:-11px;}
+                }
+            }
+        }
+
+    /* /fourth-block */
+
+}
+@media screen and (max-width: 1023px){
+
+    /* fourth-block */
+
+        .foruth-block{padding:30px 0;
+            .mbox{
+                .fourth-block-wrap{background-image:url(/images/fourth-block-fone.png);background-repeat:repeat;background-size: auto;background-position: left top;width: calc(100% - 60px);height:calc(100% - 60px);}
+            }
+        }
+
+    /* /fourth-block */
+
 }
 @media screen and (max-width: 992px){
 
@@ -22,7 +47,42 @@
 @media screen and (max-width: 666px){
 
 }
+@media screen and (max-width: 639px){
+
+    /* fourth-block */
+
+        .foruth-block{
+            .mbox{
+                .fourth-block-wrap{width: calc(100% - 30px);height: calc(100% - 30px);
+                    .title{font-size: 16px;top:-8px;}
+                }
+            }
+        }
+
+    /* /fourth-block */
+
+}
 @media screen and (max-width: 479px){
+
+    /* fourth-block */
+
+        .foruth-block{padding: 15px 0;
+            .mbox{
+                .fourth-block-wrap{
+                    .title{font-size: 12px;top:-5px;}
+                    .video-wrap{
+                        .video-placeholder{
+                            .video-button{width: 66px;height: 66px;border-width: 2px;
+                                &:before{border-width: 13px 0 13px 26px;top:calc(50% - 13px);left:calc(50% - 13px);}
+                                &:after{display: none;}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    /* /fourth-block */
 
 }
 @media screen and (max-width: 320px){
