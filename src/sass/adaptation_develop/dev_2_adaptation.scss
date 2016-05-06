@@ -14,25 +14,28 @@
 
 
 @media screen and (max-width: 1280px){
-    
-    .seventh-block{ padding: 50px;     
-        .seventh-wrah{width: calc(100vw - 100px); height: calc(100vh - 100px);}
-        .slick-prev{ left: 20px;}
-        .slick-next{right: 20px;}
-    }
-    .sixth-block .conteiner {padding: 50px;}
-    .sixth-block .content {        
-        .top-row .text p { max-width: 100%; font-size: 12px;}
-        .bot-row .ite-bot .contein {
-            .top .head-text {font-size: 12px;}
-            .bot .texter { font-size: 12px;}
+    /* 7 8 */  
+        .seventh-block{ padding: 0px ;     
+            .seventh-wrah{width: 100%; height: auto; padding: 50px;
+                .conteiner{width: 100%;}
+            } 
+            .slick-prev{ left: 20px;}
+            .slick-next{right: 20px;}            
         }
-    }
+        .sixth-block .conteiner {padding: 50px;}
+        .sixth-block .content {        
+            .top-row .text p { max-width: 100%; font-size: 12px;}
+            .bot-row .ite-bot .contein {
+                .top .head-text {font-size: 12px;}
+                .bot .texter { font-size: 12px;}
+            }
+        }
+    /* 7 8 */
 }
 @media screen and (max-width: 1024px){
     .seventh-block{padding: 30px;
-        .seventh-wrah{height: auto; width: 100%;
-            .conteiner{padding:70px 0 0;
+        .seventh-wrah{height: auto; width: 100%; padding: 0;
+            .conteiner{padding:70px 0 0; width: 100%;
                 .title-text{font-size: 24px; top: -15px;}
             }
             .slider-w{ margin-bottom: 0;
@@ -108,6 +111,8 @@
     .sixth-block .content .top-row .item-b:last-child {margin-right: 0; padding-bottom: 0;}
     .sixth-block .content .bot-row .ite-bot .contein .top .head-text {font-size: 12px; padding-bottom: 15px;}
     .sixth-block .content .bot-row .ite-bot .contein .bot .texter { font-size: 12px;}
+    .sixth-block .content .top-row .item-b .after-text .shit {font-size: 14px;}
+    .sixth-block .content .top-row .item-b .after-text p { font-size: 12px;}
 }
 @media screen and (max-width: 479px){
 
