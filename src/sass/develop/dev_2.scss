@@ -1,11 +1,10 @@
 /* 7 */
 
-    .seventh-block{background-image: url(/images/b7-bg.jpg); padding: 70px;
-        .fp-scrollable{overflow: visible !important;}
+    .seventh-block{background-image: url(/images/b7-bg.jpg); 
+        //.fp-scrollable{overflow: visible !important;}
         .slimScrollDiv{ overflow: visible !important; }
-        .seventh-wrah{width: calc(100vw - 140px); height: calc(100vh - 140px); background-image: url(/images/b7-inside.jpg); background-size: cover; background-position: center center; 
-            .conteiner{ position: relative;  padding: calc(( 100vh - 140px - 587px )/2) 0;
-            
+        .seventh-wrah{ padding: 70px;
+            .conteiner{ position: relative;  padding: calc(( 100vh - 140px - 607px )/2) 0;width: calc(100vw - 140px); height: auto; background-image: url(/images/b7-inside.jpg); background-size: cover; background-position: center center;         
                         
             }
             .slider-w{width: 100%; text-align: center; overflow: hidden; position: relative;
@@ -25,7 +24,7 @@
                     
                 }
             }
-            .button-row{max-width: 400px; width: 100%; margin: 0 auto;
+            .button-row{max-width: 400px; width: 100%; margin: 0 auto; padding-bottom: 20px;
                 .button{border-color: white; color: white; position: relative;
                     .button-signature{color: white; max-width: calc(100% - 56px);width: 100%; padding: 0; line-height: 56px; text-align: center;}
                     .arrow{border-color: white; position: absolute; right: 0px; top: 0px; bottom: 0; }
