@@ -1,18 +1,28 @@
 @media screen and (max-width: 1920px){
 
 }
-@media screen and (max-width: 1600px){
+@media screen and (max-width: 1630px){
+    .sixth-block .conteiner .top-row .item-b .after-text{
+        .shit { font-size: 14px;letter-spacing: 5px;}
+        p { font-size: 12px; line-height: 1;}
+    } 
 
 }
 @media screen and (max-width: 1366px){
 
 }
+@media screen and (max-height: 890px){
+    .sixth-block .conteiner{ background-image: none;
+        .top-row { height: auto; min-height: 450px; overflow: hidden;}
+    } 
+    .sixth-block .conteiner .bot-row .ite-bot .contein{ height: auto; min-height: 375px;}
+}
+
 @media screen and (max-width: 1280px){
     .seventh-block{
         .slick-prev{ left: 20px;}
         .slick-next{right: 20px;}
     }
-
 }
 @media screen and (max-width: 1024px){
     .seventh-block{padding: 30px;
