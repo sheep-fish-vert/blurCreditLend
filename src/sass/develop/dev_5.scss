@@ -1,11 +1,13 @@
 /*second*/
     .second-block{ background-image: url(/images/secondBG.jpg); background-size: cover; padding: 70px; position: relative;
-        .fp-scrollable{height: 100%; width: 100%; overflow: hidden;}
-        .content{height: 100%; width: 100%; background-color: rgba(63,124,145,0.83);box-shadow: 0px 0px 58px 2px rgba(0,0,0,0.75); position: relative;}
+        .fp-scrollable{height: 100%; width: 100%; overflow: hidden; background-position: center;}
+        .content{height: 100%; width: 100%; background-color: rgba(11,91,116,0.83);box-shadow: 0px 0px 58px 2px rgba(0,0,0,0.75); position: relative; background-image: url(/images/section-inner.png);background-position: center;background-repeat: repeat; background-size:cover;}
         .left{width: 27%;border-left:8px solid #accfdc;border-top:8px solid #accfdc;}
         .right{ width: 73%; border:8px solid #accfdc; border-left:none;}
         .colums{height: 100%; float: left; position: relative;}
-        .tabs{height: 25%;border-bottom:8px solid #accfdc; border-right:8px solid #accfdc; position: relative; overflow: hidden;  width: 100%;
+        .buttons-nav{ display: none;}
+        .tabs{height: 25%;border-bottom:8px solid #accfdc;  position: relative; overflow: hidden;  width: 100%; font-weight:bold; font-size:18px; cursor: pointer;
+            &:after{ content: ''; display: block; position: absolute;width: 8px; background-color: #accfdc; height: calc(100% + 16px);top: -8px; right:0; }
             &:before{ content: ''; display: block; position: absolute;width: 248px; height: 211px;top: 50%; }
             &.one{
                 &:before{ background-image: url(/images/i01.png); width: 219px; height: 208px;}
@@ -19,27 +21,37 @@
             &.four{
                 &:before{ background-image: url(/images/i04.png); right:0; width: 251px; height: 209px;}
             }
-            p{ display: block; text-transform: uppercase; color:#fff; height: 100%; width: 100%; vertical-align: middle; text-align: center;background-color: rgba(0,140,110,0.6); transition: all 300ms; position: relative;
+            p{ display: block; text-transform: uppercase; color:#fff; height: 100%; width: 100%; vertical-align: middle; text-align: center;background-color: rgba(0,140,110,0.6); transition: all 300ms; position: relative;padding: 5px;
 
             }
             &:hover{
                 p{background-color: rgba(49,216,163,0.38);}
             }
-            &.active{ border-right: none;
+            &.active{
+                &:after{ display: none;}
                 p{ background-color: transparent;}
             }
-            span{ display: inline-block; text-align: left;max-width: 210px; position: absolute; top:50%; transform:translate(-50%, -50%); left:50%;}
+            span{ display: block; text-align: left;max-width: 235px; position: absolute; top:50%; transform:translate(-50%, -50%); left:50%; width: 100%;line-height: 24px;}
         }
-        .button-more{ position: absolute; bottom: 0; right: 0;
-            p{height: 58px; display: inline-block;border:3px solid #fff;  border-right:none; vertical-align: top; margin-right: -4px; color:#fff; text-transform: uppercase;
-                &:last-child{border:3px solid #fff; width: 58px; background-color: #6fca79; position: relative;
-                    img{ position: absolute; left:50%; top:50%; transform:translate(-50%, -50%);}
+        .button-more{ position: absolute; bottom: 37px; right: 33px; z-index: 300;
+            p { height: 58px; display: inline-block; border: 3px solid #fff; border-right: none; vertical-align: top; margin-right: -4px; color: #fff; text-transform: uppercase; transition: all 300ms;
+                &:last-child { border: 3px solid #fff; width: 58px; background-color: #6fca79; position: relative;
+                    img { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); }
                 }
             }
-            a{
+            p:first-child{padding: 20px 30px 0;}
+            a{ font-weight:bold; font-size:13.36px;
                 &:hover{
-                    p:last-child{ background-color: #569f80;}
+                    p:first-child{ background-color: #569f80;}
                 }
+            }
+        }
+        .info-wrap{ position: relative; height:100%; width: 100%; padding: 0 30px;}
+        .info{color: #fff; padding: 0 56px; position: absolute; top: 0; left: 0;width: 100%; height: 100%; opacity: 0; transition: all 300ms;z-index: 1;
+            &.active{opacity:1;z-index: 200;}
+            .ttl{ text-transform: uppercase; font-weight:bold; font-size: 36px;letter-spacing: 18px;padding-bottom: 76px; padding-top: 52px;}
+            .txt{ font-size:16px;overflow: auto; font-weight:400;
+                .three-column{column-count: 3;column-gap: 30px;display: block;padding: 0 0 5px;}
             }
         }
     }

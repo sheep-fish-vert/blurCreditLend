@@ -7,7 +7,7 @@ jQuery.browser.msie = /msie/.test(navigator.userAgent.toLowerCase());
 var scroller=jQuery.browser.webkit ? "body": "html";
 
 $.scrollbarWidth=function(){var a,b,c;if(c===undefined){a=$('<div style="width:50px;height:50px;overflow:auto"><div/></div>').appendTo('body');b=a.children();c=b.innerWidth()-b.height(99).innerWidth();a.remove()}return c};
-
+var scrollWidth = $.scrollbarWidth();
 
 /* scrollUp */
 function scrollUp(block,targetBlock) {
@@ -111,7 +111,6 @@ function bindExample(){
             url:'ajax.php',
             method:'POST',
             success:function(){
-
                 setTimeout(function(){
                     console.log('binded');
                     $(document).bind('click', bindFunc);
@@ -147,7 +146,8 @@ function headeButer(menuMobile,toggleMenu){
 }
 
 function fullPage(){
-    if ( $(window).width() >= 1024 ){
+    if ( $(window).width() + scrollWidth >= 1024 ){
+        console.log('main full page');
         $('#fullpage').fullpage({
             navigation: true,
             showActiveTooltip: true,
@@ -180,11 +180,10 @@ $(document).ready(function() {
 });
 
 $(window).resize(function() {
-    if( $(window).width() >= 1024 && !$('.main').hasClass('fullpage-wrapper') ){
+    if( $(window).width() + scrollWidth >= 1024 && !$('.main').hasClass('fullpage-wrapper') ){
         fullPage();
     }
-    if( $(window).width() < 1024 && $('.main').hasClass('fullpage-wrapper') ){
-        console.log('<1024');
+    if( $(window).width() + scrollWidth < 1024 && $('.main').hasClass('fullpage-wrapper') ){
         $.fn.fullpage.destroy('all');
         $('.main').removeClass('fullpage-wrapper');
     }
