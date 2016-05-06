@@ -91,7 +91,7 @@
                     p{background-color: rgba(0,140,110,0.6);}
                 }
                 p{ }
-                span{ line-height: 24px; min-width:240px;}
+                span{ line-height: 24px; max-width:240px;}
             }
             .info{padding: 0 15px 0 27px;
                 .ttl { letter-spacing: 12px; font-size:24px; padding-top: 32px; line-height: 30px;}
@@ -130,7 +130,9 @@
         .colums{ border:3px solid #accfdc;}
         .right{ height: 355px;border:none;}
         .left{height: 98px;}
-        .tabs{ font-size: 9px;}
+        .tabs{ font-size: 9px;
+            span{ line-height: 14px; max-width:120px;}
+        }
         .info{padding: 0 13px;
             .ttl { letter-spacing: 7px;  font-size: 10px; line-height: 16px;padding-top: 14px;    padding-bottom: 7px;}
             .txt{ font-size: 10px;line-height: 14px;}
@@ -159,6 +161,7 @@
             padding: 1px;
         }
     }
+    .second-block .tabs.one:before, .second-block .tabs.two:before, .second-block .tabs.three:before, .second-block .tabs.four:before{ height: 79%;width: 33%;}
 }
 @media screen and (max-width: 320px){
 
