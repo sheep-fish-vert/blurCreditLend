@@ -111,7 +111,6 @@ function bindExample(){
             url:'ajax.php',
             method:'POST',
             success:function(){
-
                 setTimeout(function(){
                     console.log('binded');
                     $(document).bind('click', bindFunc);
@@ -172,8 +171,6 @@ function fullPage(){
 
 /* DOCUMENT READY  */
 $(document).ready(function() {
-
-    console.log('scrollWidth ' , parseInt(scrollWidth));
     fullPage();
     //oneHeightItems();
     $('.footer_placeholder').height($('.footer').outerHeight());
@@ -187,7 +184,6 @@ $(window).resize(function() {
         fullPage();
     }
     if( $(window).width() + scrollWidth < 1024 && $('.main').hasClass('fullpage-wrapper') ){
-        console.log('<1024');
         $.fn.fullpage.destroy('all');
         $('.main').removeClass('fullpage-wrapper');
     }
