@@ -6,7 +6,7 @@
         .right{ width: 73%; border:8px solid #accfdc; border-left:none;}
         .colums{height: 100%; float: left; position: relative;}
         .buttons-nav{ display: none;}
-        .tabs{height: 25%;border-bottom:8px solid #accfdc;  position: relative; overflow: hidden;  width: 100%; font-weight:bold; font-size:18px; cursor: pointer;
+        .tabs{height: 25%;border-bottom:8px solid #accfdc;  position: relative; overflow: hidden;  width: 100%; font-weight:bold; font-size:22px; cursor: pointer;
             &:after{ content: ''; display: block; position: absolute;width: 8px; background-color: #accfdc; height: calc(100% + 16px);top: -8px; right:0; }
             &:before{ content: ''; display: block; position: absolute;width: 248px; height: 211px;top: 50%; }
             &.one{
@@ -31,7 +31,7 @@
                 &:after{ display: none;}
                 p{ background-color: transparent;}
             }
-            span{ display: block; text-align: left;max-width: 235px; position: absolute; top:50%; transform:translate(-50%, -50%); left:50%; width: 100%;line-height: 24px;}
+            span{ display: block; text-align: left;max-width: 286px; position: absolute; top:50%; transform:translate(-50%, -50%); left:50%; width: 100%;line-height: 24px;}
         }
         .button-more{ position: absolute; bottom: 37px; right: 33px; z-index: 300;
             p { height: 58px; display: inline-block; border: 3px solid #fff; border-right: none; vertical-align: top; margin-right: -4px; color: #fff; text-transform: uppercase; transition: all 300ms;
@@ -50,8 +50,9 @@
         .info{color: #fff; padding: 0 56px; position: absolute; top: 0; left: 0;width: 100%; height: 100%; opacity: 0; transition: all 300ms;z-index: 1;
             &.active{opacity:1;z-index: 200;}
             .ttl{ text-transform: uppercase; font-weight:bold; font-size: 36px;letter-spacing: 18px;padding-bottom: 76px; padding-top: 52px;}
-            .txt{ font-size:16px;overflow: auto; font-weight:400;
+            .txt{ font-size:16px;overflow: auto; font-weight:400; padding-right: 21px;
                 .three-column{column-count: 3;column-gap: 30px;display: block;padding: 0 0 5px;}
+                p{padding-right: 21px;}
             }
         }
     }
