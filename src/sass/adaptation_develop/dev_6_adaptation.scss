@@ -27,21 +27,39 @@
 		}
 }
 @media screen and (max-width: 1600px){
+	.first-block{
+		.mbox{ padding-top: 10px;
+			.heading{
+				padding: 15px 0;
+				font-size: 32px;
+			}
+
+			.green-button{
+				padding: 15px 0;
+			}
+			.buttons_new{min-height: 0px;width: 60%; justify-content: space-around;
+				.button_new{
+					margin-bottom: 35px;
+				}
+			}
+		}
+	}
 	.fifth-block{
 		.mbox{
-			.hedding{}
+			.hedding{
+				
+			}
 			.columns{
 				.column{
 					&:last-child{}
 					.column-part{
 						
 					}
-				}
-				
-					
+				}	
 			}	
 		}
 	}
+
 }
 @media screen and (max-width: 1366px){
 
@@ -218,6 +236,11 @@
 				.button{width: 500px; border: 7px solid #007491;
 					.button-signature{line-height: 70px; font-size: 16px;}
 					.arrow{width: 70px;}
+				}
+			}
+			.buttons_new{ width: 100%;
+				.button_new{
+					
 				}
 			}
 			.heading{ padding: 50px 20px;

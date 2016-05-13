@@ -131,17 +131,49 @@
         .slick-next{  top: 70px;}
     }
     .sixth-block .conteiner {padding: 15px;}
-    .title-text {font-size: 12px; top: -6px; letter-spacing: 2px;}
+    .title-text {font-size: 20px; top: -6px; letter-spacing: 2px;}
 
-    .sixth-block .content .top-row .text h5 {font-size: 9px; padding: 30px 0 10px;}
-    .sixth-block .content .top-row .text p { font-size: 9px; padding-bottom: 10px;}
+    .sixth-block .content .top-row .text h5 {font-size: 14px; padding: 30px 0 10px;}
+    .sixth-block .content .top-row .text p { font-size: 14px; padding-bottom: 10px;}
     .sixth-block .content .top-row .item-b:last-child {margin-right: 0; padding-bottom: 0;}
     .sixth-block .content .bot-row .ite-bot .contein .top .head-text {font-size: 12px; padding-bottom: 15px;}
     .sixth-block .content .bot-row .ite-bot .contein .bot .texter { font-size: 12px;}
-    .sixth-block .content .top-row .item-b .after-text .shit {font-size: 14px;}
-    .sixth-block .content .top-row .item-b .after-text p { font-size: 12px;}
+    .sixth-block .content .top-row .item-b .after-text .shit {font-size: 22px;}
+    .sixth-block .content .top-row .item-b .after-text p { font-size: 18px;}
 }
 @media screen and (max-width: 479px){
+    .seventh-block{
+        .seventh-wrah{
+            .slider-w {
+                .top {
+                    .man-face .con {}
+                    .name{}
+                }
+                .convert-text .texter { 
+                    &:before{}
+                    &:after{}
+                }
+            }
+            .button-row{
+                 .button .button-signature{}
+            }
+        }
+    }
+
+    .seventh-block{
+        .slick-prev{  }
+        .slick-next{  }
+    }
+    .sixth-block .conteiner {}
+    .title-text {font-size: 18px; }
+
+    .sixth-block .content .top-row .text h5 {font-size: 12px; }
+    .sixth-block .content .top-row .text p { font-size: 12px; }
+    .sixth-block .content .top-row .item-b:last-child {}
+    .sixth-block .content .bot-row .ite-bot .contein .top .head-text {font-size: 12px;}
+    .sixth-block .content .bot-row .ite-bot .contein .bot .texter { font-size: 12px;}
+    .sixth-block .content .top-row .item-b .after-text .shit {font-size: 16px;}
+    .sixth-block .content .top-row .item-b .after-text p { font-size: 16px;}
 
 }
 @media screen and (max-width: 320px){

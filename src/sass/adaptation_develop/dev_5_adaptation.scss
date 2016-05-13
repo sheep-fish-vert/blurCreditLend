@@ -14,7 +14,7 @@
 @media screen and (max-width: 1180px){
     .second-block{
         .tabs{ font-size: 14px;
-            span{ max-width:185px;}
+            span{ max-width:185px; font-size:19px;}
         }
     }
 }
@@ -91,7 +91,7 @@
                     p{background-color: rgba(0,140,110,0.6);}
                 }
                 p{ }
-                span{ line-height: 24px; max-width:240px;}
+                span{ line-height: 24px; max-width:260px;}
             }
             .info{padding: 0 15px 0 27px;
                 .ttl { letter-spacing: 12px; font-size:24px; padding-top: 32px; line-height: 30px;}
@@ -128,13 +128,27 @@
 @media screen and (max-width: 480px){
     .second-block{
         .colums{ border:3px solid #accfdc;}
-        .right{ height: 355px;border:none;}
+        .right{ height: 355px;border:none;
+            .info-wrap{
+                .info{
+                    .ttl{
+                        p{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
         .left{height: 98px;}
         .tabs{ font-size: 13px;
-            span{ line-height: 20px; max-width:175px;left: 62%;}
+            span{ line-height: 20px; max-width:175px;left: 62%; font-size: 12px;}
         }
         .info{padding: 0 13px;
-            .ttl { letter-spacing: 7px;  font-size: 10px; line-height: 16px;padding-top: 14px;    padding-bottom: 7px;}
+            .ttl { letter-spacing: 7px;  font-size: 10px; line-height: 16px;padding-top: 14px;    padding-bottom: 7px;
+                p{font-size: 14px;
+                    
+                }
+            }
             .txt{ font-size: 10px;line-height: 14px;}
         }
         .buttons-nav{
