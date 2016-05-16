@@ -26,6 +26,43 @@
 			}
 		}
 }
+@media screen and (max-height: 769px){
+	.first-block{
+		.mbox{
+			.heading{padding: 10px 0!important;}
+			.improve-box{max-width: 370px;
+				.calc{font-size: 110px;
+					span{top: 40px;}
+				}
+				span{line-height: 80px;font-size: 22px;
+						
+					
+				}
+			}
+			.green-button{ padding: 10px 40px!important;
+				.button{max-width: 370px;
+					
+				}
+			}
+			.buttons_new{min-height: 200px;}
+		}
+	}
+	@media screen and (max-width: 1082px){
+		.first-block{
+			.mbox{ 
+				.heading{	
+				}
+				.green-button{	
+				}
+				.buttons_new{width: 70%!important; 
+					.button_new{	
+					}
+				}
+			}	
+		}
+	}
+}
+
 @media screen and (max-width: 1600px){
 	.first-block{
 		.mbox{ padding-top: 10px;
