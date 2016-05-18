@@ -94,8 +94,10 @@
                 span{ line-height: 24px; max-width:260px;}
             }
             .info{padding: 0 15px 0 27px;
-                .ttl { letter-spacing: 12px; font-size:24px; padding-top: 32px; line-height: 30px;}
-                .txt{ font-size: 20px;line-height: 26px;}
+                .ttl { letter-spacing: 12px; font-size: 24px; padding-top: 32px; line-height: 30px;}
+                .txt{ font-size: 20px;line-height: 26px;
+
+                }
             }
             .button-more{   bottom: 31px;  right: 30px; width:calc(100% - 60px);
                 p { height: 81px; border-width: 6px; display: block; float: left;
