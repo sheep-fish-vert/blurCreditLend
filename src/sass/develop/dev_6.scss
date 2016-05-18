@@ -88,6 +88,22 @@
 
 		}
 	}
+}
 
-
+.second-block{ 
+	.right{
+		.back-step{	left: 33px; width: 300px;
+			a{
+				&:first-child{
+					
+				}
+				&:last-child{
+					img{transform: rotate(180deg); left: 40%; top: 40%;
+					
+					}
+					
+				}
+			}
+		}
+	} 
 }
