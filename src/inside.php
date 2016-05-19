@@ -26,6 +26,7 @@ and open the template in the editor.
     <link rel="stylesheet" href="css/develop/dev_2.css">
     <link rel="stylesheet" href="css/develop/dev_1.css">
     <link rel="stylesheet" href="css/jscroll.css">
+
 <style>
     .second-block .button-home {
     position: absolute;
@@ -362,7 +363,7 @@ and open the template in the editor.
                     </div>
                     
 
-                    
+
                 </div>
             </div>
         
@@ -396,7 +397,19 @@ and open the template in the editor.
     <script type="text/javascript" src="js/develop/develop_5.js"></script>
     <script type="text/javascript" src="js/develop/develop_6.js"></script>
     <!-- endbuild -->
-    
+                <script>
+                    $(document).ready(function () {
+                        var ind = parseInt("<? echo $_GET['tab'];?>");
+
+                        var tabs = $('.second-block .tabs');
+                        var infos = $('.second-block .info');
+                        tabs.removeClass('active');
+                        infos.removeClass('active');
+                        infos.eq(ind).addClass('active');
+                        tabs.eq(ind).addClass('active');
+                    });
+
+                </script>
     <!-- /SCRIPTS -->
             </div>
         </div>
