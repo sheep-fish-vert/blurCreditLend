@@ -103,7 +103,7 @@ and open the template in the editor.
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     </head>
-    <body>
+    <body class="inside-page">
         <div class="global-wrapper">
             <div class="main" id="fullpage">
         <section class="second-block" id="second-block">
@@ -404,13 +404,14 @@ and open the template in the editor.
                 <script>
                     $(document).ready(function () {
                         var ind = parseInt("<? echo $_GET['tab'];?>");
-
-                        var tabs = $('.second-block .tabs');
-                        var infos = $('.second-block .info');
-                        tabs.removeClass('active');
-                        infos.removeClass('active');
-                        infos.eq(ind).addClass('active');
-                        tabs.eq(ind).addClass('active');
+                        if(ind) {
+                            var tabs = $('.second-block .tabs');
+                            var infos = $('.second-block .info');
+                            tabs.removeClass('active');
+                            infos.removeClass('active');
+                            infos.eq(ind).addClass('active');
+                            tabs.eq(ind).addClass('active');
+                        }
                     });
 
                 </script>

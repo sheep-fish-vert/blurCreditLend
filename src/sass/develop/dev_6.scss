@@ -92,18 +92,14 @@
 
 .second-block{ 
 	.right{
-		.back-step{	left: 33px; width: 300px;
+		.back-step{	left: 33px; width: 215px;
 			a{
-				&:first-child{
-					
-				}
 				&:last-child{
-					img{transform: rotate(180deg); left: 40%; top: 40%;
-					
-					}
-					
+					img{transform: rotate(180deg); left: 40%; top: 40%;}
 				}
 			}
+			p:first-child{border: 3px solid #fff;}
+			p:last-child{ float: left;}
 		}
 	} 
 }
