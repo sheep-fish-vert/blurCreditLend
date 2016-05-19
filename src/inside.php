@@ -361,8 +361,12 @@ and open the template in the editor.
                             </a></div>
                         </div>
                     </div>
-                    
 
+                    <div class="button-more back-step"><a href="index.html">
+                                <p>На главную</p>
+                                <p><img src="images/arrow-second.png" alt=""></p>
+                            </a>
+                    </div>  
 
                 </div>
             </div>
