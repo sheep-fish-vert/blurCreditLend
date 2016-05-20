@@ -9,6 +9,30 @@
 }
 @media screen and (max-width: 1280px){
 
+    /* acount-advantages-pro */
+
+        .acount-advantages-pro {
+
+            .title-text{font-size: 26px;top: -14px;}
+
+            .content{
+                .wrap{
+                    .advantages-content{
+                        .advantages-table{
+                            .advantages-table-top{
+                                .advantages-table-top-middle{width: 35%;}
+                                .advantages-table-top-right{
+                                    span{font-size: 26px;letter-spacing: 1px;}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    /* /acount-advantages-pro */
+
 }
 @media screen and (max-width: 1024px){
 
@@ -23,6 +47,22 @@
         }
 
     /* /fourth-block */
+
+    /* acount-advantages-pro */
+
+        .acount-advantages-pro{
+            .content{
+                .wrap{
+                    .advantages-content{
+                        .advantages-table{width: 50%;
+                            &:last-child{border-width: 2px 2px 2px 0;}
+                        }
+                    }
+                }
+            }
+        }
+
+    /* /acount-advantages-pro */
 
 }
 @media screen and (max-width: 1023px){
@@ -40,11 +80,64 @@
 }
 @media screen and (max-width: 992px){
 
+    /* acount-advantages-pro */
+
+        .acount-advantages-pro{padding:70px 50px;
+            .title-text{font-size: 24px;line-height: 1.25;}
+            .content{padding:65px 10px 25px;
+                .wrap{
+                    .advantages-content{flex-wrap:wrap;
+                        .advantages-table{width: 100%;border-color:#fff;
+                            &:last-child{border-width: 2px;
+                                .advantages-table-title{color:#f7abac;}
+                            }
+
+                            .advantages-table-title{font-size: 18px;color:#a2efbe;
+                                &:after{background-color: #fff;}
+                            }
+                            .advantages-table-top{flex-wrap:wrap;
+                                .advantages-table-top-middle{order:1;width: 100%;text-align: center;padding-top: 10px;}
+                            }
+                            .advantages-table-main{
+                                table{
+                                    th, td{
+                                        &:after{background-color: #fff;}
+                                    }
+                                    tr{border-color:#fff;}
+                                }
+                            }
+                            .advantages-table-bottom{
+                                table{
+                                    tr{border-color:#fff;
+                                        td{
+                                            &:after{background-color:#fff;}
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .advantages-mobile-button{display: flex;}
+
+                    }
+                    .advantages-button{display: none;}
+                }
+            }
+        }
+
+    /* /acount-advantages-pro */
+
 }
 @media screen and (max-width: 767px){
 
 }
 @media screen and (max-width: 666px){
+
+    /* acount-advantages-pro */
+
+        .acount-advantages-pro{padding:50px 30px;}
+
+    /* /acount-advantages-pro */
 
 }
 @media screen and (max-width: 639px){
@@ -83,6 +176,48 @@
         }
 
     /* /fourth-block */
+
+    /* acount-advantages-pro */
+
+        .acount-advantages-pro{padding:40px 15px;
+            .title-text{font-size: 12px;top:-8px;}
+            .content{padding:35px 10px 25px;
+                .wrap{
+                    .advantages-descript{font-size: 9px;}
+                    .wrap-subtitle{font-size: 9px;}
+                    .advantages-content{
+                        .advantages-table{
+                            .advantages-table-title{font-size: 9px;}
+                            .advantages-table-top{font-size: 9px;
+                                .advantages-table-top-right{
+                                    span{font-size: 16px;margin-right: 3px;}
+                                }
+                            }
+                            .advantages-table-main{font-size: 9px;}
+                            .advantages-table-bottom{font-size: 9px;
+                                table{
+                                    tr{
+                                        td{
+                                            &:last-child{width: 131px;}
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .advantages-mobile-button{
+                            .advantages-button-descript{font-size: 9px;}
+                            .advantages-button-wrap{
+                                .button{
+                                    .button-signature{font-size: 9px;line-height: 41px;}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    /* /acount-advantages-pro */
 
 }
 @media screen and (max-width: 320px){
