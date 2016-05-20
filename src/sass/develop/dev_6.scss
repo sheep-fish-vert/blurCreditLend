@@ -110,3 +110,51 @@
 		}
 	}
 }
+
+.credit-history-fix-pro{ background: url('../../images/credit-history-fix-pro-background.jpg') no-repeat; background-size: cover; font-family: 'Ubuntu';  
+	.cover{padding: 70px;
+		.mbox{ background: url('../../images/history-mbox-background.png') no-repeat; background-size: cover; width: 100%; max-width: 1780px; display: flex; flex-direction: column; position: relative;padding: 0px 0px 0px 0px;   margin: 0;
+			.heading-part{font-size: 33px; color: #fff; position: absolute; top: -20px; left: 0;
+				
+			}
+			.historis{display: flex; justify-content: center; padding: 60px 0px 0px 0px; 
+				.histori{display: flex; flex-wrap: wrap; justify-content: center; width: 25%;  align-items: flex-start;
+					&:nth-child(3){
+						img{margin-bottom: 30px;}
+						.histori-text{padding: 0px 70px 0px 70px;}
+					}
+					img{ max-width: 300px; max-height: 300px; 
+						
+					}
+					.histori-text{padding: 0px 70px 0 70px; color: #fff;  font-size: 16px; line-height: 1.3; font-weight: regular; font-family: 'Ubuntu';
+						
+					}	
+				}
+				.histori-arrow{display: flex;
+						img{display: block; margin: 150px 0px; max-height: 20px;}
+					}
+			}
+			.bottom-part{width: 100%;
+				.bottom-heading{width: 100%; text-align: center; color: #fff; font-size: 18px; padding: 40px 0px; text-transform: uppercase; letter-spacing: 3px;
+					
+				}
+				.bottom-button{width: 100%; padding: 20px 10px 40px;
+					.green-button{ margin: 0 auto;
+						.button{margin: 0 auto;
+							.button-signature{color: #fff; font-size: 12px;
+								
+							}
+							.arrow{
+								img{
+									
+								}
+							}
+						}	
+					}
+				}
+			}	
+		}
+	}	
+}
+
+

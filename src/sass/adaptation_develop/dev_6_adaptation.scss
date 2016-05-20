@@ -96,10 +96,76 @@
 			}
 		}
 	}
-
+	
+	.credit-history-fix-pro{
+		.cover{
+			.mbox{
+				.heading-part{
+					
+				}
+				.historis{
+					.histori{
+						&:nth-child(3){
+							img{margin-bottom: 30px;}
+							.histori-text{padding: 0px 30px 0px 30px; margin-top: 30px;}
+						}
+						img{max-width: 210px; max-height: 210px;
+							
+						}
+						.histori-text{ padding: 0px 0px 0px 0px; 
+							
+						}
+					}
+					.histori-arrow{
+						img{margin: 100px 0px; }
+					}
+				}
+				.bottom-part{
+					.bottom-heading{
+						
+					}
+					.botom-button{
+						
+					}
+				}
+			}
+		}
+		
+	}
 }
 @media screen and (max-width: 1366px){
-
+	.credit-history-fix-pro{
+		.cover{
+			.mbox{
+				.heading-part{
+					
+				}
+				.historis{
+					.histori{
+						&:nth-child(3){
+							img{margin-bottom: 20px;}
+							.histori-text{padding: 0px 0px 0px 0px; margin-top: 30px;}
+						}
+						img{max-width: 210px; max-height: 210px;
+							
+						}
+						.histori-text{ font-size: 13px;padding: 0px 5px 0px 5px; 
+							
+						}
+					}
+				}
+				.bottom-part{
+					.bottom-heading{letter-spacing: 0px; font-size: 14px; padding: 40px 50px; 
+						
+					}
+					.botom-button{
+						
+					}
+				}
+			}
+		}
+		
+	}
 }
 @media screen and (max-width: 1280px){
 
@@ -162,6 +228,38 @@
 				}
 			}
 		}
+	}
+
+	.credit-history-fix-pro{
+		.cover{
+			.mbox{
+				.heading-part{
+					
+				}
+				.historis{
+					.histori{
+						img{max-width: 150px; max-height: 150px;
+							
+						}
+						.histori-text{padding: 0px 0px 0px 0px;
+							
+						}
+					}
+					.histori-arrow{
+						img{margin: 70px 0px; }
+					}
+				}
+				.bottom-part{
+					.bottom-heading{
+						
+					}
+					.botom-button{
+						
+					}
+				}
+			}
+		}
+		
 	}
 }
 @media screen and (max-width: 1020px){
@@ -258,7 +356,54 @@
 
 		}
 	}
-
+	
+	.credit-history-fix-pro{max-height: auto; width: 100%;
+		.cover{max-height: auto; padding: 20px;
+			.mbox{max-height: auto;
+				.heading-part{
+					
+				}
+				.historis{flex-direction: column; align-items: center;  justify-content: center;  max-height: auto; 
+					.histori{ width: 100%; padding: 30px 0px 30px 0px;
+						&:nth-child(3){
+							img{margin-bottom: 20px;}
+							.histori-text{padding: 0px 40px 0px 40px; margin-top: 0px;}
+						}
+						img{max-width: 150px; max-height: 150px;
+							
+						}
+						.histori-text{padding: 10px 40px 10px 40px;
+							
+						}
+					}
+					.histori-arrow{
+						img{margin: 0px 0px; transform:rotate(90deg);
+						}
+					}
+				}
+				.bottom-part{
+					.bottom-heading{
+						
+					}
+					.botom-button{
+						.green-button{ 
+						.button{
+							.button-signature{
+								
+							}
+							.arrow{
+								img{
+									
+								}
+							}
+						}	
+					}
+					}
+				}
+			}
+		}
+		
+	}
 }
 @media screen and (max-width: 666px){
 .first-block{ min-height: auto;
@@ -383,6 +528,54 @@
 				}
 			}
 		}
+	}
+
+	.credit-history-fix-pro{
+		.cover{padding: 30px;
+			.mbox{
+				.heading-part{
+					
+				}
+				.historis{ 
+					.histori{ 
+						&:nth-child(3){
+							img{}
+							.histori-text{}
+						}
+						img{
+							
+						}
+						.histori-text{
+							
+						}
+					}
+					.histori-arrow{
+						img{
+						}
+					}
+				}
+				.bottom-part{
+					.bottom-heading{font-size: 12px;
+						
+					}
+					.botom-button{
+						.green-button{ 
+						.button{
+							.button-signature{
+								
+							}
+							.arrow{
+								img{
+									
+								}
+							}
+						}	
+					}
+					}
+				}
+			}
+		}
+		
 	}
 }
 
