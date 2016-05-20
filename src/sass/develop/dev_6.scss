@@ -7,6 +7,7 @@
 }
 
 .first-block{width: 100%; background: url('../../images/first-block-layout.jpg') no-repeat;  background-size: cover;
+
 	.mbox{padding:25px 0 0 0;display: flex; flex-wrap: wrap;justify-content: space-between;	max-width: 90%;
 		.top-part{display: flex; justify-content: space-between; width:100%;flex-wrap: wrap;
 			.telephone{display: block;font-size: 31px;color: #3ab0c4;line-height: 49px; vertical-align: middle;	font-weight: bold;
@@ -14,9 +15,9 @@
 			.telephone:hover{color: #00b51a;cursor:pointer}
 		}
 		.green-button{width: 100%; display: flex; justify-content: center; padding:50px 0 0 0;}
-		
+
 		//new buttons
-		
+
 		.buttons_new{width: 100%; margin: 0 auto; display: flex;flex-wrap: wrap;justify-content:space-between;align-items:center;min-height: 220px;
           	.button_new{width: 280px; max-width: 100%; border-width: 3px;border-color: rgb(28, 115, 143);border-style: solid;box-sizing: border-box;padding-left: 30px;position: relative;margin: 5px;
           		&:hover{background-color: rgba(111, 202, 121,0.529);
@@ -35,10 +36,10 @@
           			.hover_el{position: absolute;left: -3px;top: 100%;width: 280px;height: 32px;border-width: 3px;border-color: rgb(28, 115, 143);border-style: solid;box-sizing: border-box;border-top: none;text-align: center;line-height: 28px;display: none;
       					&:after{background-image: url('../../images/strelk.png');background-position: left center;background-repeat: no-repeat;content: '';display: block;position: absolute;right: 0px;top: 2px;height: 100%;width: 25px;
       					}
-      				}	
+      				}
 	          	}
           	}
-        }  
+        }
 
 		//new buttons
 
@@ -55,6 +56,12 @@
 			}
 		}
 	}
+
+	/* first-block-pro */
+
+		&.top-block-pro{background:url(../../images/top-block-pro-layout.jpg) no-repeat;}
+
+	/* /first-block-pro */
 }
 
 .fifth-block{background: url('../../images/fifth-block-background.jpg') no-repeat; padding: 40px 30px;overflow: visible!important; background-size: cover;
@@ -90,7 +97,7 @@
 	}
 }
 
-.second-block{ 
+.second-block{
 	.right{
 		.back-step{	left: 33px; width: 215px;
 			a{
@@ -101,5 +108,5 @@
 			p:first-child{border: 3px solid #fff;}
 			p:last-child{ float: left;}
 		}
-	} 
+	}
 }
