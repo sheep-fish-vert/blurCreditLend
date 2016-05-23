@@ -220,6 +220,17 @@
     /* /acount-advantages-pro */
 
 }
+@media screen and (max-width: 390px){
+
+    // some fix
+    .seventh-block .seventh-wrah .button-row .button .button-signature{line-height: 1.1;text-align: center;display: flex;align-items: center;justify-content: center;height: 40px;}
+
+    .sixth-block .content .top-row .item-b .after-text{padding-left: 10px;}
+    .sixth-block .content .top-row .item-b .after-text .shit{font-size: 13px;}
+    .sixth-block .content .top-row .item-b .after-text .shit{letter-spacing: 2px;}
+    .sixth-block .content .top-row .item-b .after-text p{font-size: 14px;}
+
+}
 @media screen and (max-width: 320px){
 
 }
