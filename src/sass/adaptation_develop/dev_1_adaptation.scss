@@ -1,20 +1,31 @@
+@media screen and (min-width: 1600px){
+    .acount-advantages-pro{padding: 30px 70px;
+        .content{padding: 23px 10px 25px 10px;margin-top: 16px;box-shadow: none;}
+        // .slimScrollDiv{overflow: visible!important;}
+        // .fp-scrollable{height: 100%; width: 100%; overflow: visible!important;}
+        // .slimScrollBar{display: none!important;}
+    }
+
+}
+
+
 @media screen and (max-height: 769px){
     .acount-advantages-pro{padding: 20px 50px;
-        .mbox{ 
+        .mbox{
             .content{padding:15px 10px 15px 10px;
                 .wrap{
                     .advantages-descript{margin-bottom: 10px;
-                        
+
                     }
                     .advantages-content{
                         .advantages-table{
                              .advantages-table-title{padding:5px 20px;
-                                 
+
                              }
                              .advantages-table-main{
                                  table{
                                      th, td{padding: 5px 0;
-                                         
+
                                      }
                                  }
                              }
@@ -26,24 +37,24 @@
     }
     @media screen and (max-width: 992px){
         .acount-advantages-pro{
-            .mbox{ 
+            .mbox{
                 .content{padding:35px 10px 15px 10px;
                     .title-text{font-size: 20px;
-                        
+
                     }
                     .wrap{
                         .advantages-descript{
-                            
+
                         }
                         .advantages-content{
                             .advantages-table{
                                  .advantages-table-title{
-                                     
+
                                  }
                                  .advantages-table-main{
                                      table{
                                          th, td{
-                                             
+
                                          }
                                      }
                                  }
@@ -56,24 +67,24 @@
     }
        @media screen and (max-width: 479px){
            .acount-advantages-pro{
-            .mbox{ 
+            .mbox{
                 .content{
                     .title-text{font-size: 14px;
-                        
+
                     }
                     .wrap{
                         .advantages-descript{
-                            
+
                         }
                         .advantages-content{
                             .advantages-table{
                                  .advantages-table-title{
-                                     
+
                                  }
                                  .advantages-table-main{
                                      table{
                                          th, td{
-                                             
+
                                          }
                                      }
                                  }
@@ -94,7 +105,9 @@
 
 }
 @media screen and (max-width: 1366px){
-
+    .acount-advantages-pro{
+        .title-text{position: relative;padding-top: 14px;}
+    }
 }
 @media screen and (max-width: 1280px){
 
