@@ -47,6 +47,42 @@
 			.buttons_new{min-height: 200px;}
 		}
 	}
+
+	.credit-history-fix-pro{
+		.cover{padding: 50px;
+			.mbox{
+				.heading-part{
+					
+				}
+				.historis{ padding: 40px 0px 0px 0px;
+					.histori{
+						&:nth-child(3){
+							img{}
+							.histori-text{}
+						}
+						img{ width:200px; height: 200px; 
+							
+						}
+						.histori-text{ 
+							
+						}
+					}
+					.histori-arrow{
+						img{ }
+					}
+				}
+				.bottom-part{
+					.bottom-heading{
+						
+					}
+					.botom-button{
+						
+					}
+				}
+			}
+		}
+		
+	}
 	@media screen and (max-width: 1082px){
 		.first-block{
 			.mbox{

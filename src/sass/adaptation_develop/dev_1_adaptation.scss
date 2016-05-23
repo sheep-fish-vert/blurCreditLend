@@ -1,3 +1,92 @@
+@media screen and (max-height: 769px){
+    .acount-advantages-pro{padding: 20px 50px;
+        .mbox{ 
+            .content{padding:15px 10px 15px 10px;
+                .wrap{
+                    .advantages-descript{margin-bottom: 10px;
+                        
+                    }
+                    .advantages-content{
+                        .advantages-table{
+                             .advantages-table-title{padding:5px 20px;
+                                 
+                             }
+                             .advantages-table-main{
+                                 table{
+                                     th, td{padding: 5px 0;
+                                         
+                                     }
+                                 }
+                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 992px){
+        .acount-advantages-pro{
+            .mbox{ 
+                .content{padding:35px 10px 15px 10px;
+                    .title-text{font-size: 20px;
+                        
+                    }
+                    .wrap{
+                        .advantages-descript{
+                            
+                        }
+                        .advantages-content{
+                            .advantages-table{
+                                 .advantages-table-title{
+                                     
+                                 }
+                                 .advantages-table-main{
+                                     table{
+                                         th, td{
+                                             
+                                         }
+                                     }
+                                 }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+       @media screen and (max-width: 479px){
+           .acount-advantages-pro{
+            .mbox{ 
+                .content{
+                    .title-text{font-size: 14px;
+                        
+                    }
+                    .wrap{
+                        .advantages-descript{
+                            
+                        }
+                        .advantages-content{
+                            .advantages-table{
+                                 .advantages-table-title{
+                                     
+                                 }
+                                 .advantages-table-main{
+                                     table{
+                                         th, td{
+                                             
+                                         }
+                                     }
+                                 }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+       }
+}
+
+
 @media screen and (max-width: 1920px){
 
 }
