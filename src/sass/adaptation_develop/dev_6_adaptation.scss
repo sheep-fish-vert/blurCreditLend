@@ -360,7 +360,7 @@
 	.credit-history-fix-pro{max-height: auto; width: 100%;
 		.cover{max-height: auto; padding: 20px;
 			.mbox{max-height: auto;
-				.heading-part{
+				.heading-part{display: none;
 					
 				}
 				.historis{flex-direction: column; align-items: center;  justify-content: center;  max-height: auto; 
@@ -633,6 +633,52 @@
 				}
 			}
 		}
+	}
+
+	.credit-history-fix-pro{
+		.cover{
+			.mbox{
+				.heading-part{
+					
+				}
+				.historis{ 
+					.histori{ 
+						&:nth-child(3){
+							img{}
+							.histori-text{}
+						}
+						img{
+							
+						}
+						.histori-text{
+							
+						}
+					}
+					.histori-arrow{
+						img{
+						}
+					}
+				}
+				.bottom-part{
+					.bottom-heading{	
+					}
+					.botom-button{
+						.green-button{ 
+							.button{
+								.button-signature{font-size: 10px;
+									
+								}
+								.arrow{
+									img{
+										
+									}
+								}
+							}	
+						}
+					}
+				}
+			}
+		}	
 	}
 }
 @media screen and (max-width: 320px){
