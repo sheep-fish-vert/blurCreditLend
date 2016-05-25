@@ -55,10 +55,42 @@
 
 /* /click play button on video */
 
+/* index-pro - show text in acount-advantages-pro */
+
+    function indexProShowHideTextOnNotebook(){
+
+        $(document).on('click','.advantages-descript-button span', function(){
+
+            if($('.advantages-descript-button').css('display') == 'flex'){
+                if($(this).is('.active')){
+                    $(this).removeClass('active');
+                    $('.advantages-descript-text').stop().slideUp(300);
+                }else{
+                    $(this).addClass('active');
+                    $('.advantages-descript-text').stop().slideDown(300);
+                }
+            }
+
+        });
+
+        $(window).resize(function(){
+
+            if($(window).width() > 1366 || $(window).height() > 769){
+                $('.advantages-descript-button span').removeClass('active');
+                $('.advantages-descript-text').removeAttr('style');
+            }
+
+        });
+
+    }
+
+/* /index-pro - show text in acount-advantages-pro */
+
 
 $(document).ready(function(){
 
     clickPlayButton();
+    indexProShowHideTextOnNotebook();
 
 });
 

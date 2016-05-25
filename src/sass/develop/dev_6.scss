@@ -111,8 +111,8 @@
 	}
 }
 
-.credit-history-fix-pro{ background: url('../../images/credit-history-fix-pro-background.jpg') no-repeat; background-size: cover; font-family: 'Ubuntu';
-	.cover{padding: 70px;
+.credit-history-fix-pro{ background: url('../../images/credit-history-fix-pro-background.jpg') no-repeat; background-size: cover; font-family: 'Ubuntu';display: flex;align-items: center;
+	.cover{padding: 40px 70px;
 		.mbox{ background: url('../../images/history-mbox-background.png') no-repeat; background-size: cover; width: 100%; max-width: 1780px; display: flex; flex-direction: column; position: relative;padding: 0px 0px 0px 0px;   margin: 0;
 			.heading-part{font-size: 33px; color: #fff; position: absolute; top: -20px; left: 30px;}
 			.historis{display: flex; justify-content: center; padding: 60px 0px 0px 0px;

@@ -387,6 +387,10 @@
 
         .pro-page{
 
+            .first-block{
+                .mbox{padding: 25px 0 0 0;}
+            }
+
             .seventh-block{
                 .seventh-wrah{padding: 30px 70px;
                     .slider-w{margin-bottom: 10px;
@@ -414,5 +418,32 @@
         }
 
     /* /index-pro */
+
+}
+@media screen and (max-height: 769px), screen and (max-width: 1366px){
+
+    /* acount-advantages-pro */
+
+        .acount-advantages-pro{
+            .content{
+                .wrap{
+                    .advantages-descript{
+                        .advantages-descript-button{display: flex;}
+                        .advantages-descript-text{display: none;}
+                    }
+                    .advantages-content{font-size:12px;
+                        .advantages-table{
+                            .advantages-table-top{
+                                .advantages-table-top-middle{text-align: center;
+                                    img{max-width: 150px;}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    /* acount-advantages-pro */
 
 }
