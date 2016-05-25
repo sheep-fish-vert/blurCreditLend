@@ -381,7 +381,7 @@
 
 }
 
-@media screen and (max-height: 769px){
+@media screen and (max-height: 769px) and (min-width: 1366px){
 
     /* index-pro */
 
@@ -399,6 +399,18 @@
                 }
             }
 
+        }
+
+    /* /index-pro */
+
+}
+
+@media screen and (max-height: 769px){
+
+    /* index-pro */
+
+        .pro-page{
+            .conteiner{padding: 15px!important;}
         }
 
     /* /index-pro */
