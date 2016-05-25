@@ -295,12 +295,20 @@
                                     span{font-size: 16px;margin-right: 3px;}
                                 }
                             }
-                            .advantages-table-main{font-size: 9px;}
-                            .advantages-table-bottom{font-size: 9px;
+                            .advantages-table-main{font-size: 9px;
                                 table{
                                     tr{
                                         td{
                                             &:last-child{width: 131px;}
+                                        }
+                                    }
+                                }
+                            }
+                            .advantages-table-bottom{font-size: 9px;
+                                table{
+                                    tr{
+                                        td{
+                                            &:last-child{width: 136px;}
                                         }
                                     }
                                 }
@@ -334,5 +342,29 @@
 
 }
 @media screen and (max-width: 320px){
+
+}
+
+@media screen and (max-height: 769px){
+
+    /* index-pro */
+
+        .pro-page{
+
+            .seventh-block{
+                .seventh-wrah{padding: 30px 70px;
+                    .slider-w{margin-bottom: 10px;
+                        .top{
+                            .man-face{
+                                .con{width: 130px;height: 130px;}
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+    /* /index-pro */
 
 }

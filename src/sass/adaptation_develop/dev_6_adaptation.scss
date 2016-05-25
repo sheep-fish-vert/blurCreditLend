@@ -1,30 +1,18 @@
 @media screen and (max-width: 1920px){
+
+}
+@media screen and (max-width: 1800px){
+
 	.fifth-block{
 		.mbox{
-			.headding{}
 			.columns{
 				.column{
-					&:last-child{
-					}
-					.column-part{}
+					&:last-child{width: calc(100% / 5);}
 				}
 			}
 		}
 	}
-}
-@media screen and (max-width: 1800px){
-	.fifth-block{
-			.mbox{
-				.headding{}
-				.columns{
-					.column{
-						&:last-child{width: calc(100% / 5);
-						}
-						.column-part{}
-					}
-				}
-			}
-		}
+
 }
 @media screen and (max-height: 769px){
 	.first-block{
@@ -34,174 +22,99 @@
 				.calc{font-size: 110px;
 					span{top: 40px;}
 				}
-				span{line-height: 80px;font-size: 22px;
-
-
-				}
+				span{line-height: 80px;font-size: 22px;}
 			}
-			.green-button{ padding: 10px 0px!important;
-				.button{/*max-width: 370px;*/
-
-				}
-			}
+			.green-button{ padding: 10px 0px!important;}
 			.buttons_new{min-height: 200px;}
 		}
 	}
 
 	.credit-history-fix-pro{
-		.cover{padding: 50px;
+		.cover{padding: 40px 50px;
 			.mbox{
-				.heading-part{
-					
-				}
-				.historis{ padding: 40px 0px 0px 0px;
+
+				.historis{ padding: 25px 0px 0px 0px;
 					.histori{
-						&:nth-child(3){
-							img{}
-							.histori-text{}
-						}
-						img{ width:200px; height: 200px; 
-							
-						}
-						.histori-text{ 
-							
-						}
+						img{ width:200px; height: 200px;}
 					}
-					.histori-arrow{
-						img{ }
-					}
+
 				}
+
 				.bottom-part{
-					.bottom-heading{
-						
-					}
-					.botom-button{
-						
-					}
+					.bottom-heading{padding: 30px 50px 10px;}
 				}
+
 			}
 		}
-		
+
 	}
 	@media screen and (max-width: 1082px){
+
 		.first-block{
 			.mbox{
-				.heading{
-				}
-				.green-button{
-				}
-				.buttons_new{width: 100%!important;
-					.button_new{
-					}
-				}
+
+				.buttons_new{width: 100%!important;}
 			}
 		}
+
 	}
 }
 
 @media screen and (max-width: 1600px){
 	.first-block{
 		.mbox{ padding-top: 10px;
-			.heading{
-				padding: 15px 0;
-				font-size: 32px;
-			}
+			.heading{padding: 15px 0;font-size: 32px;}
 
-			.green-button{
-				padding: 15px 0;
-			}
+			.green-button{padding: 15px 0;}
 			.buttons_new{min-height: 0px;width: 100%; justify-content: space-around;
-				.button_new{width: 260px;
-					margin-bottom: 35px;
-				}
+				.button_new{width: 260px;margin-bottom: 35px;}
 			}
 		}
 	}
-	.fifth-block{
-		.mbox{
-			.hedding{
 
-			}
-			.columns{
-				.column{
-					&:last-child{}
-					.column-part{
-
-					}
-				}
-			}
-		}
-	}
-	
 	.credit-history-fix-pro{
 		.cover{
 			.mbox{
-				.heading-part{
-					
-				}
+
 				.historis{
 					.histori{
 						&:nth-child(3){
-							img{margin-bottom: 30px;}
-							.histori-text{padding: 0px 30px 0px 30px; margin-top: 30px;}
+							.histori-text{padding: 0px 30px 0px 30px;}
 						}
-						img{max-width: 210px; max-height: 210px;
-							
-						}
-						.histori-text{ padding: 0px 0px 0px 0px; 
-							
-						}
+						img{max-width: 210px; max-height: 210px;}
+						.histori-text{ padding: 0px 0px 0px 0px;}
 					}
 					.histori-arrow{
 						img{margin: 100px 0px; }
 					}
 				}
-				.bottom-part{
-					.bottom-heading{
-						
-					}
-					.botom-button{
-						
-					}
-				}
 			}
 		}
-		
+
 	}
 }
 @media screen and (max-width: 1366px){
+
 	.credit-history-fix-pro{
 		.cover{
 			.mbox{
-				.heading-part{
-					
-				}
 				.historis{
 					.histori{
 						&:nth-child(3){
-							img{margin-bottom: 20px;}
-							.histori-text{padding: 0px 0px 0px 0px; margin-top: 30px;}
+							.histori-text{padding: 0px 0px 0px 0px;}
 						}
-						img{max-width: 210px; max-height: 210px;
-							
-						}
-						.histori-text{ font-size: 13px;padding: 0px 5px 0px 5px; 
-							
-						}
+						img{max-width: 210px; max-height: 210px;}
+						.histori-text{ font-size: 13px;padding: 0px 5px 0px 5px;}
 					}
 				}
 				.bottom-part{
-					.bottom-heading{letter-spacing: 0px; font-size: 14px; padding: 40px 50px; 
-						
-					}
-					.botom-button{
-						
-					}
+					.bottom-heading{letter-spacing: 0px; font-size: 14px; padding: 30px 50px 10px;}
+
 				}
 			}
 		}
-		
 	}
+
 }
 @media screen and (max-width: 1280px){
 
@@ -210,19 +123,13 @@
 	.first-block{ min-height: auto;
 		.mbox{
 			.top-part{
-				.telephone{font-size:22px; line-height: 40px;
-				}
+				.telephone{font-size:22px; line-height: 40px;}
 
 				img{width: 280px; height: 40px;}
-				.telephone:hover{
-
-				}
 			}
 			.green-button{ padding: 45px 40px;
 				.button{ width: 300px;
-					.button-signature{ font-size: 12px;
-
-					}
+					.button-signature{ font-size: 12px;}
 				}
 			}
 
@@ -231,11 +138,8 @@
 				}
 			}
 			.improve-box{max-width: 300px; max-height: 300px;
-				span{font-size: 20px; line-height: 80px;
-				}
-				span:nth-child(3){
+				span{font-size: 20px; line-height: 80px;}
 
-				}
 				.calc{font-size: 110px;
 					span{font-size: 13px; left:60px;}
 				}
@@ -269,176 +173,67 @@
 	.credit-history-fix-pro{
 		.cover{
 			.mbox{
-				.heading-part{
-					
-				}
 				.historis{
 					.histori{
-						img{max-width: 150px; max-height: 150px;
-							
-						}
-						.histori-text{padding: 0px 0px 0px 0px;
-							
-						}
+						img{max-width: 150px; max-height: 150px;}
+						.histori-text{padding: 0px 0px 0px 0px;}
 					}
 					.histori-arrow{
 						img{margin: 70px 0px; }
 					}
 				}
-				.bottom-part{
-					.bottom-heading{
-						
-					}
-					.botom-button{
-						
-					}
-				}
 			}
 		}
-		
 	}
+
 }
 @media screen and (max-width: 1020px){
+
 	.fifth-block{
 		.mbox{
-			.headding{
-				h2{
-				}
-
-			}
 			.columns{  min-height: 700px;
-				.column{ height: 900px;
-					.column-part{
-						.bottom-signature{
-						}
-						&:first-child{
-						}
-						&:last-child{
-
-						}
-						img{
-						}
-					}
-				}
+				.column{ height: 900px;}
 			}
 		}
 	}
+
 }
 @media screen and (max-width: 992px){
-	.first-block{
-		.mbox{
-			.top-part{
-
-				.telephone{}
-				.telephone:hover{}
-			}
-			.green-buttton{}
-			.heading{
-				span{ }
-			}
-			.improve-box{
-				span{}
-				span:nth-child(3){}
-				.calc{
-					span{}
-				}
-			}
-
-		}
-	}
 
 	.fifth-block{
 		.mbox{
-			.headding{
-				h2{
-				}
-
-			}
 			.columns{ height: 484px; max-height: 100%;
 				.column{ height: 100%;
-					&:last-child{
-					}
 					.column-part{
-						.bottom-signature{max-width: 100px;
-						}
-						&:first-child{
-						}
-						img{ }
+						.bottom-signature{max-width: 100px;}
 					}
 				}
 			}
 		}
 	}
+
 }
 @media screen and (max-width: 767px){
-	.first-block{
-		.mbox{
-			.top-part{
 
-				.telephone{}
-				.telephone:hover{}
-			}
-			.green-buttton{}
-			.heading{
-				span{}
-			}
-			.improve-box{
-				span{}
-				span:nth-child(3){}
-				.calc{
-					span{}
-				}
-			}
-
-		}
-	}
-	
 	.credit-history-fix-pro{max-height: auto; width: 100%;
 		.cover{max-height: auto; padding: 20px;
 			.mbox{max-height: auto;
-				.heading-part{display: none;
-					
-				}
-				.historis{flex-direction: column; align-items: center;  justify-content: center;  max-height: auto; 
+				.heading-part{display: none;}
+				.historis{flex-direction: column; align-items: center;  justify-content: center;  max-height: auto;
 					.histori{ width: 100%; padding: 30px 0px 30px 0px;
 						&:nth-child(3){
-							img{margin-bottom: 20px;}
 							.histori-text{padding: 0px 40px 0px 40px; margin-top: 0px;}
 						}
-						img{max-width: 150px; max-height: 150px;
-							
-						}
-						.histori-text{padding: 10px 40px 10px 40px;
-							
-						}
+						img{max-width: 150px; max-height: 150px;}
+						.histori-text{padding: 0px 40px 10px 40px;}
 					}
 					.histori-arrow{
-						img{margin: 0px 0px; transform:rotate(90deg);
-						}
-					}
-				}
-				.bottom-part{
-					.bottom-heading{
-						
-					}
-					.botom-button{
-						.green-button{ 
-						.button{
-							.button-signature{
-								
-							}
-							.arrow{
-								img{
-									
-								}
-							}
-						}	
-					}
+						img{margin: 0px 0px; transform:rotate(90deg);}
 					}
 				}
 			}
 		}
-		
+
 	}
 }
 @media screen and (max-width: 666px){
@@ -452,7 +247,6 @@
 			.top-part{
 
 				.telephone{font-size: 20px; line-height: 30px;}
-				.telephone:hover{}
 				img{width: 220px; height: 30px;}
 			}
 			.green-button{ padding: 45px 0;padding-bottom: 80px;
@@ -461,25 +255,15 @@
 					.arrow{width: 70px;}
 				}
 			}
-			.buttons_new{ width: 100%;
-				.button_new{
-
-				}
-			}
-			.heading{ padding: 50px 20px;
-				span{}
-			}
+			.buttons_new{ width: 100%;}
+			.heading{ padding: 50px 20px;}
 			.improve-box{max-height: 500px; max-width: 500px;
-				span{font-size: 24px; line-height: 120px;
-				}
-				span:nth-child(3){
-				}
+				span{font-size: 24px; line-height: 120px;}
+
 				.calc{font-size: 180px; min-width: 100%; letter-spacing: -10px; text-align: center;
-					span{font-size: 20px;top: 100px; left: 70px;
-					}
+					span{font-size: 20px;top: 100px; left: 70px;}
 				}
 			}
-
 		}
 	}
 
@@ -496,10 +280,7 @@
 
 						&:first-child{font-size: 72px; }
 
-						&:nth-child(2){width: 100%; order: 1;
-							img{ }
-						}
-						&:last-child{}
+						&:nth-child(2){width: 100%; order: 1;}
 					}
 					&:last-child{width: 100%;}
 
@@ -511,30 +292,26 @@
 
 }
 @media screen and (max-width: 479px){
+
 	.first-block{
 		.mbox{
 			.top-part{
 
 				.telephone{font-size: 15px; line-height: 20px;}
-				.telephone:hover{}
 				img{width: 140px; height: 20px;}
 			}
 			.green-button{
 				.button{
 					.button-signature{font-size: 14px;}
-					.arrow{}
 				}
 			}
 			.heading{
 				span{font-size: 20px;}
 			}
 			.improve-box{
-				span{ line-height: 100px;
-				}
-				span:nth-child(3){}
+				span{ line-height: 100px;}
 				.calc{font-size: 160px; min-width: 100%; letter-spacing: -10px; text-align: center;
-					span{font-size: 20px;top: 80px; left: 50px;
-					}
+					span{font-size: 20px;top: 80px; left: 50px;}
 				}
 			}
 
@@ -567,79 +344,42 @@
 	}
 
 	.credit-history-fix-pro{
-		.cover{padding: 30px;
+		.cover{padding: 30px 15px;
 			.mbox{
-				.heading-part{
-					
-				}
-				.historis{ 
-					.histori{ 
-						&:nth-child(3){
-							img{}
-							.histori-text{}
-						}
-						img{
-							
-						}
-						.histori-text{
-							
-						}
-					}
-					.histori-arrow{
-						img{
-						}
-					}
-				}
 				.bottom-part{
-					.bottom-heading{font-size: 12px;
-						
-					}
+					.bottom-heading{font-size: 12px;}
 					.botom-button{
-						.green-button{ 
-						.button{
-							.button-signature{
-								
+						.green-button{
+							.button{
+								.button-signature{font-size: 11px;}
 							}
-							.arrow{
-								img{
-									
-								}
-							}
-						}	
-					}
+						}
 					}
 				}
 			}
 		}
-		
 	}
+
 }
 
 @media screen and (max-width: 410px){
 	.first-block{
 		.mbox{
 			.top-part{
-
 				.telephone{font-size: 15px; line-height:20px;}
-				.telephone:hover{}
-				img{}
 			}
 			.green-button{
 				.button{
 					.button-signature{font-size: 10px;}
-					.arrow{}
 				}
 			}
 			.heading{
 				span{font-size: 18px;}
 			}
 			.improve-box{
-				span{ line-height: 100px;
-				}
-				span:nth-child(3){}
+				span{ line-height: 100px;}
 				.calc{font-size: 120px; min-width: 100%; letter-spacing: -10px; text-align: center;
-					span{font-size: 16px;top: 50px; left: 30px;
-					}
+					span{font-size: 16px;top: 50px; left: 30px;}
 				}
 			}
 
@@ -658,14 +398,8 @@
 
 						&:first-child{ font-size: 46px; padding: 10px;}
 
-						&:nth-child(2){
-							img{ }
-						}
 						&:last-child{padding: 10px;}
 					}
-					&:last-child{}
-
-
 				}
 			}
 		}
@@ -674,47 +408,17 @@
 	.credit-history-fix-pro{
 		.cover{
 			.mbox{
-				.heading-part{
-					
-				}
-				.historis{ 
-					.histori{ 
-						&:nth-child(3){
-							img{}
-							.histori-text{}
-						}
-						img{
-							
-						}
-						.histori-text{
-							
-						}
-					}
-					.histori-arrow{
-						img{
-						}
-					}
-				}
 				.bottom-part{
-					.bottom-heading{	
-					}
 					.botom-button{
-						.green-button{ 
+						.green-button{
 							.button{
-								.button-signature{font-size: 10px;
-									
-								}
-								.arrow{
-									img{
-										
-									}
-								}
-							}	
+								.button-signature{font-size: 10px;}
+							}
 						}
 					}
 				}
 			}
-		}	
+		}
 	}
 }
 @media screen and (max-width: 320px){

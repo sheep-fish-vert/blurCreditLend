@@ -26,6 +26,14 @@
 
 /* /fourth-block */
 
+/* top-block-pro */
+
+    .top-block-pro{
+        .mbox{height: 100%;display: flex;align-items: center;}
+    }
+
+/* /top-block-pro */
+
 /* acount-advantages-pro */
 
     .acount-advantages-pro{background-image: url(/images/advantageBG.jpg); background-size: cover; padding: 25px 70px; position: relative;
@@ -132,3 +140,13 @@
     }
 
 /* /acount-advantages-pro */
+
+/* pro-page */
+
+    .pro-page{
+        .sixth-block{
+            .conteiner{padding: 50px 70px;}
+        }
+    }
+
+/* /pro-page */
