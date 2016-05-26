@@ -17,7 +17,7 @@
 @media screen and (max-height: 769px){
 	.first-block{
 		.mbox{
-			.heading{padding: 10px 0!important;}
+			.heading{padding: 15px 0!important;}
 			.improve-box{max-width: 370px;
 				.calc{font-size: 110px;
 					span{top: 40px;}
@@ -238,7 +238,7 @@
 }
 @media screen and (max-width: 666px){
 .first-block{ min-height: auto;
-		.mbox{padding-top: 30px;
+		.mbox{padding: 30px 0px 10px 0px;
 
 			.buttons_new{
 				.button_new{width: 100%;margin-left:0;margin-right: 0;}
@@ -249,7 +249,7 @@
 				.telephone{font-size: 20px; line-height: 30px;}
 				img{width: 220px; height: 30px;}
 			}
-			.green-button{ padding: 45px 0;padding-bottom: 80px;
+			.green-button{ padding: 45px 0;padding-bottom: 60px;
 				.button{width: 500px; border: 7px solid #007491;
 					.button-signature{line-height: 70px; font-size: 16px;}
 					.arrow{width: 70px;}
