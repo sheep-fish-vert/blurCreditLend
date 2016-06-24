@@ -155,6 +155,8 @@
 }
 
 .how-it-works{background: url(/images/how-it-worcks-bg.jpg) center center no-repeat;background-size: cover;padding: 70px;position: relative;
+	.slimScrollDiv{overflow: visible !important;}
+    .fp-scrollable{overflow: visible !important;}
 	.content{height: 100%;width: 100%;background: transparent url(/images/how-it-worcks-image.jpg) center center no-repeat;background-size: cover;position: relative;}
     .wrap{max-width: 1260px;margin:0 auto;display: flex;flex-wrap:wrap;justify-content:space-between;align-items:stretch;height: 100%;padding: 55px 0px;padding: 20px 20px;}
     .item{width: 345px;max-height: 341px;padding: 0px;align-items:stretch;display: flex;justify-content:center; border-radius: 15px; position: relative;
@@ -166,7 +168,14 @@
         &:nth-child(3){background: url(/images/how-it-worcks-items-bg.png) center center no-repeat;}
         &:nth-child(4){background: url(/images/how-it-worcks-items-bg.png) center center no-repeat;}
         &:nth-child(5){background: url(/images/how-it-worcks-items-bg.png) center center no-repeat;}
-        &:nth-child(6){background: url(/images/how-it-worcks-items-bg.png) center center no-repeat;}
+        &:nth-child(6){background: url(/images/how-it-worcks-items-bg.png) center center no-repeat;
+        	.item-wrap{
+        		.item-text{
+        			a:first-child{color: #00d7a3;text-decoration: none;}
+        			a:last-child{color: #02cc57;text-decoration: none;}
+        		}
+        	}
+        }
 		.item-wrap{border-radius: 15px;}
         &:hover{
             .item-wrap{background-color: rgba(5,101,5, .77); cursor: pointer; }
@@ -174,4 +183,26 @@
         .item-wrap{width: 100%;display: flex;justify-content:center;align-items:center;transition:all ease .2s;}
         .item-text{padding-left: 45px;padding-right: 20px;color: white;text-transform: uppercase;font-size: 16px;font-weight: bold;line-height: 24px;cursor: default; }
     }
+}
+
+.sixth-block{
+	.conteiner{
+		.central-part{ display: flex; justify-content: space-between;padding: 20px 0 0 0; 
+			.info-container{ width: calc(100% / 3);padding: 0 0 0 0; max-width: 430px; display: flex; flex-direction: column; justify-content: space-between;
+			
+				.heding{font-family: 'Ubuntu'; font-size: 20px; font-weight: bold; color: #87ecb1;padding: 10px 0 20px; text-transform: uppercase;
+					
+				}
+				.main-content{font-family: 'Ubuntu'; font-size: 16px; color: #fff; line-height: 1.5;padding: 0px 10px 0 0;  flex: 1;
+					
+				}
+				.bottom-part{font-family: 'Ubuntu'; font-size: 18px; font-weight: bold; color: #fff;text-transform: uppercase; padding: 20px 0 50px 0;
+					span{font-size: 30px; color: #87ecb1;}
+				}
+			}
+		}
+		.lower-text{
+			p{font-family: 'Ubuntu'; font-size: 18px; color: white; line-height: 1.5;}
+		}
+	}	
 }

@@ -92,6 +92,34 @@
 		}
 
 	}
+	.acount-advantages-pro .content .wrap {
+		.advantages-content .advantages-table .advantages-table-bottom table caption{padding: 10px 0 10px 30px;
+		}
+		.advantages-descript{margin-bottom: 10px;}
+	}
+
+	.sixth-block{
+		.conteiner{
+			.central-part{ padding: 20px 0 0 0; 
+				.info-container{ padding: 0 0 0 0;
+				
+					.heding{padding: 10px 0 10px;
+						
+					}
+					.main-content{padding: 0px 10px 0 0;
+						
+					}
+					.bottom-part{padding: 10px 0 20px 0;
+						span{}
+					}
+				}
+			}
+			.lower-text{
+				p{font-family: 'Ubuntu'; font-size: 18px; color: white; line-height: 1.5;}
+			}
+		}	
+	}
+	 
 }
 @media screen and (max-width: 1366px){
 
@@ -114,10 +142,18 @@
 			}
 		}
 	}
-
+	.acount-advantages-pro .content .wrap .advantages-content .advantages-table .advantages-table-bottom table caption{font-size: 20px;}
+	
 }
-@media screen and (max-width: 1280px){
-
+@media screen and (max-width: 1215px){
+	.how-it-works {
+		.item{width: 33%;width: 259px;max-height: 255px;
+			.item-text{font-size: 12px; line-height: 1.5;
+				
+			}
+		}
+	 	.wrap{padding: 80px 20px; }
+	}
 }
 @media screen and (max-width: 1024px){
 	.first-block{ min-height: auto;
@@ -186,6 +222,12 @@
 		}
 	}
 
+	.how-it-works .item{
+		
+	}
+	.how-it-works{
+		.item{height: 255px;}
+	}
 }
 @media screen and (max-width: 1020px){
 
@@ -211,7 +253,28 @@
 			}
 		}
 	}
-
+	
+	.sixth-block{
+		.conteiner{
+			.central-part{ padding: 20px 0 0 0; flex-direction: column; 
+				.info-container{ padding: 0 0 0 0;  width: 100%;
+				
+					.heding{padding: 10px 0 10px;
+						
+					}
+					.main-content{padding: 0px 10px 0 0;
+						
+					}
+					.bottom-part{padding: 10px 0 20px 0;
+						span{}
+					}
+				}
+			}
+			.lower-text{
+				p{font-family: 'Ubuntu'; font-size: 18px; color: white; line-height: 1.5;}
+			}
+		}	
+	}
 }
 @media screen and (max-width: 767px){
 
@@ -235,9 +298,20 @@
 		}
 
 	}
+	.how-it-works{
+		.wrap{flex-direction: column; align-items: center;
+			.item{margin-bottom :20px;
+				.arrow-wrap{
+					img{transform: rotate(90deg);}
+				}
+			}	
+		}
+	}
+
+	.acount-advantages-pro .content .wrap .advantages-content .advantages-table .advantages-table-bottom table caption{font-size: 15px;}
 }
 @media screen and (max-width: 666px){
-.first-block{ min-height: auto;
+	.first-block{ min-height: auto;
 		.mbox{padding: 30px 0px 10px 0px;
 
 			.buttons_new{
@@ -288,6 +362,28 @@
 				}
 			}
 		}
+	}
+
+	.sixth-block{
+		.conteiner{
+			.central-part{ padding: 20px 0 0 0; flex-direction: column; 
+				.info-container{ padding: 0 0 0 0;  width: 100%;
+				
+					.heding{padding: 10px 0 10px;
+						
+					}
+					.main-content{padding: 0px 10px 0 0;
+						
+					}
+					.bottom-part{padding: 10px 0 20px 0;
+						span{}
+					}
+				}
+			}
+			.lower-text{
+				p{font-family: 'Ubuntu'; font-size: 18px; color: white; line-height: 1.5;}
+			}
+		}	
 	}
 
 }
@@ -360,6 +456,31 @@
 		}
 	}
 
+	.how-it-works{padding: 15px;
+		.wrap{padding: 50px 20px; }
+	}
+	
+	.sixth-block{
+		.conteiner{
+			.central-part{ 
+				.info-container{ 
+				
+					.heding{font-size: 10px;
+						
+					}
+					.main-content{font-size: 9px;
+						
+					}
+					.bottom-part{font-size: 9px;
+						span{font-size: 15px;}
+					}
+				}
+			}
+			.lower-text{
+				p{font-size: 9px;}
+			}
+		}	
+	}
 }
 
 @media screen and (max-width: 410px){
