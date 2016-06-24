@@ -73,12 +73,14 @@
 		}
 		.columns{display: flex; max-width: 1795px; height: 100%;  width: 100%; background: url('../../images/fifth-block-columns-background.jpg') no-repeat;  z-index: 0;overflow: hidden; background-size: cover; margin: 0 auto;
 			.column{display: flex; flex-direction: column; justify-content: space-around;  background: url('../../images/fifth-block-column-background.png'); opacity: 0.9; width: calc(100% / 5); height: 100%; background-size: cover; box-shadow: 5px 0 45px rgba(1, 42, 61, 1);
-				.column-part{display: flex; justify-content: center; align-items: center; color: #f8f6f5; height: calc( 100% / 3 ); width: 100%;
+				.column-part{display: flex; justify-content: center; align-items: center; color: #f8f6f5; height: calc( 100% / 3 ); width: 100%; 
 					.bottom-signature{ max-width: 160px; max-height: 70px; color:#f8f6f5; font-size: 18px; border-bottom: 3px solid #9ac0d4;  text-align: center; text-transform: uppercase; padding: 0 0 15px 0 ;	font-family: 'Ubuntu';
 					}
 				}
 				.column-part:first-child{font-size: 72px; font-weight: bold; font-family: 'Kelson'; color: #9ac0d4;
 				}
+				.column-part:last-child{flex-direction: column;}
+				.under-botom-signature{padding: 10px 0;}
 			}
 
 			.column:hover{cursor: pointer;
@@ -160,7 +162,7 @@
 	.content{height: 100%;width: 100%;background: transparent url(/images/how-it-worcks-image.jpg) center center no-repeat;background-size: cover;position: relative;}
     .wrap{max-width: 1260px;margin:0 auto;display: flex;flex-wrap:wrap;justify-content:space-between;align-items:stretch;height: 100%;padding: 55px 0px;padding: 20px 20px;}
     .item{width: 345px;max-height: 341px;padding: 0px;align-items:stretch;display: flex;justify-content:center; border-radius: 15px; position: relative;
-    	.arrow-wrap{position: absolute; bottom: 15px; right: 15px;
+    	.arrow-wrap{position: absolute; bottom: 30px; right: 30px;
     	}
         &:nth-child(1), &:nth-child(2), &:nth-child(3){margin-bottom: 20px;}
         &:nth-child(1){background: url(/images/how-it-worcks-items-bg.png) center center no-repeat;}
@@ -181,7 +183,7 @@
             .item-wrap{background-color: rgba(5,101,5, .77); cursor: pointer; }
         }
         .item-wrap{width: 100%;display: flex;justify-content:center;align-items:center;transition:all ease .2s;}
-        .item-text{padding-left: 45px;padding-right: 20px;color: white;text-transform: uppercase;font-size: 16px;font-weight: bold;line-height: 24px;cursor: default; }
+        .item-text{padding-left: 35px;padding-right: 0px;color: white;text-transform: uppercase;font-size: 16px;font-weight: bold;line-height: 24px;cursor: default; white-space: pre-line;min-width: 280px; max-width: 280px;}
     }
 }
 
