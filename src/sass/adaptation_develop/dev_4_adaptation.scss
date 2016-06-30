@@ -16,7 +16,7 @@
         .title-text{font-size: 24px;top: -13px;}
         .wrap{padding: 50px 17px;}
         .item{padding: 12px;
-            .item-text{padding-left: 17px;padding-right: 17px;font-size: 12px;line-height: 17px;}
+            .item-text{padding-left: 17px;padding-right: 17px;font-size: 12px;}
         }
     }
 
@@ -56,7 +56,7 @@
         .wrap{padding: 34px 22px;}
         .item{
             .item-wrap{min-height: 230px;}
-            .item-text{padding-left: 29px;padding-right: 28px;font-size: 14px;}
+            .item-text{padding-left: 29px;padding-right: 28px;font-size: 14px; line-height: 20px;}
         }
     }
 }
@@ -69,7 +69,7 @@
         .item{padding: 11px;
             &:last-child{}
             .item-wrap{min-height: 230px;}
-            .item-text{padding-left: 29px;padding-right: 25px;font-size: 9px;line-height: 12px;}
+            .item-text{padding-left: 29px;padding-right: 25px;font-size: 9px;}
         }
     }
 }
